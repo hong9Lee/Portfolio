@@ -1,0 +1,11 @@
+{
+  "runmode": "local",
+  "local": {
+    "DEBUG_LEVEL": "debug",
+    "DM_HOST":[{"IP":"127.0.0.1","PORT":"6002"}],
+    "API_HOST":[{"IP":"127.0.0.1","PORT":"6003"}],
+    "DOMAIN_ID":"test_kdm",
+    "DM_TOKEN":"826119D2-F590-4FA3-BA7E-0717869D40B1",
+    "EXPRESS_PORT":6100
+  }
+}

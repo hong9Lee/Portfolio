@@ -1,0 +1,12 @@
+.auto_complete_div {
+  position: absolute;
+  width: 100%;
+  bottom: 120px;
+  padding-left: 3px;
+  padding-right: 3px;
+  background-color: white;
+  @include basicBoxSetting();
+  text-align: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
