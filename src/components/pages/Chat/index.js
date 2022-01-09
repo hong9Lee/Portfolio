@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import PropTypes from 'prop-types';
 import QueryStirng from 'query-string';
-import { chatList } from 'modules/actions/chat';
+// import { chatList } from 'modules/actions/chat';
 import Template from './templates';
 
 const Chat = ({ match, location }) => {
@@ -15,9 +15,9 @@ const Chat = ({ match, location }) => {
     inType: 'intro',
     inStr: '',
   };
-  useEffect(() => {
-    dispatch(chatList(paramSet));
-  }, [chatList]);
+  // useEffect(() => {
+  //   dispatch(chatList(paramSet));
+  // }, [chatList]);
 
   return (
     <>

@@ -7,9 +7,18 @@ const apiController = require(approot + '/server/routes/controller/api.controlle
 // router.post('/dialogue', apiController.dialogue);
 router.get('/AutoCom', apiController.AutoCom);
 
-router.get('*', (req, res, next) => {
+router.get('/chat', (req, res, next) => {
+  console.log("************")
   if (req.path.split('/')[1] === 'static') return next();
   res.sendFile(approot + '/build/index.html');
 });
+
+router.get('/test', (req, res, next) => {
+  res.send("okok");
+  console.log("************")
+  if (req.path.split('/')[1] === 'static') return next();
+  res.sendFile(approot + '/build/index.html');
+
+})
 
 module.exports = router;
