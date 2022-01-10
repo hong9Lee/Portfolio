@@ -16,6 +16,7 @@ router.get('/chat', (req, res, next) => {
 router.get('/test', (req, res, next) => {
   res.send("okok");
   console.log("************")
+  console.log(req.path)
   if (req.path.split('/')[1] === 'static') return next();
   res.sendFile(approot + '/build/index.html');
 
