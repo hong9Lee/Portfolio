@@ -1,15 +1,19 @@
 import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
+import Template from './templates';
 
 const Test = ({ match, location }) => {
-
   return (
     <>
-      <h3> HI!!</h3>
+      <div>
+        <div>
+          <Template />
+        </div>
+      </div>
     </>
   );
-
 };
+
 Test.propTypes = {
   match: PropTypes.object,
   location: PropTypes.object,

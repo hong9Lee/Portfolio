@@ -3,7 +3,7 @@ import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import store from 'modules/store';
 import Chat from 'components/pages/Chat';
-import Test from 'components/test/index';
+import Test from 'components/ppo/index';
 import './App.css';
 
 function App() {
