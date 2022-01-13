@@ -89,6 +89,9 @@ section {
   padding: 0 5px;
 } */
 
+a {
+  text-decoration: none;
+}
 
 address {
   font-style: normal;

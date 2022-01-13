@@ -3,15 +3,14 @@ import { useDispatch, useSelector } from 'react-redux';
 import PropTypes from "prop-types";
 import isToast, {activeToast, CreateToast, SHOW_TOASTER} from 'modules/actions/toast';
 import moment from 'moment'
+import ToastMessage from "../../atoms/Toast";
 /**
  * PpoMiddle
  */
 const PpoMiddle = () => {
     const dispatch = useDispatch();
-    const isClick = useSelector(state => state.isToast.active);
+    const isActive = useSelector(state => state.isToast.active);
     const msg = useSelector(state => state.isToast.msg);
-    const title = msg ? msg.title : '';
-    const now = msg ? msg.content : '';
 
     console.log("************", msg)
 
@@ -28,12 +27,11 @@ const PpoMiddle = () => {
                 MIDDLE
             </header>
 
-            <div style={{ backgroundColor : "aqua", display : isClick ? 'none' : ''}}>
-                Toaster Message?
-                {msg? <p>{title}<br/>{now}</p> : <></>}
-
+            <div style={{ display : isActive ? 'none' : ''}}>
+                {msg? <ToastMessage title={msg.title} contents={msg.contents}/> : ''}
             </div>
         </div>
+
     );
 };
 

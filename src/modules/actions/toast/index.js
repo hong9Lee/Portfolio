@@ -23,7 +23,7 @@ export function* toastQueue(action){
 
     const toastState = {
         title : action.payload.title,
-        content : action.payload.contents
+        contents : action.payload.contents
     }
 
     yield put({
