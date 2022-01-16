@@ -4,22 +4,14 @@ import Middle from '../../organisms/PpoMiddle';
 import Footer from '../../organisms/PpoFooter';
 
 const PpoTemplate = () => {
-    return(
-        <div>
-            <div>
-                <Header />
-                <Middle />
-                <Footer />
-            </div>
-        </div>
-    );
+    return (<>
+            <Header/>
+            <Middle/>
+            <Footer/>
+        </>);
 };
 
-PpoTemplate.propTypes = {
+PpoTemplate.propTypes = {};
 
-};
-
-PpoTemplate.defaultProps = {
-
-};
+PpoTemplate.defaultProps = {};
 export default PpoTemplate;

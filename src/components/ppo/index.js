@@ -1,26 +1,20 @@
-import React, { useEffect, useState } from 'react';
+import React, {useEffect, useState} from 'react';
 import PropTypes from 'prop-types';
 import Template from './templates';
 
 const Test = ({ match, location }) => {
-  return (
-    <>
-      <div>
-        <div>
-          <Template />
-        </div>
-      </div>
-    </>
-  );
+    return (<>
+            <Template/>
+        </>);
 };
 
 Test.propTypes = {
-  match: PropTypes.object,
-  location: PropTypes.object,
+    match    : PropTypes.object,
+    location : PropTypes.object,
 };
 
 Test.defaultProps = {
-  match: {},
-  location: {},
+    match    : {},
+    location : {},
 };
 export default Test;
