@@ -24,15 +24,85 @@ const PpoMiddle = () => {
 
     return (
         <>
-            <div className="middle_container" >
-                <br/>
-                <br/>
-                <br/>
+            <main className="main" style={{clear : "both"}}>
+                <div>
                 MIDDLE
-                <br/>
-                <br/>
-                <br/>
+                </div>
+                <div>
+                    MIDDLE
+                </div>
+                <div>
+                    MIDDLE
+                </div>
+                <div>
+                    MIDDLE
+                </div>
+                <div>
+                    MIDDLE
+                </div>  <div>
+                MIDDLE
             </div>
+                <div>
+                    MIDDLE
+                </div>v
+                <div>
+                    MIDDLE
+                </div>
+                <div>
+                    MIDDLE
+                </div>
+                <div>
+                    MIDDLE
+                </div>
+                <div>
+                    MIDDLE
+                </div>
+                <div>
+                    MIDDLE
+                </div>
+                <div>
+                    MIDDLE
+                </div>
+                <div>
+                    MIDDLE
+                </div>
+                <div>
+                    MIDDLE
+                </div>
+                <div>
+                    MIDDLE
+                </div>
+
+                <div>
+                    MIDDLE
+                </div>
+                <div>
+                    MIDDLE
+                </div>
+                <div>
+                    MIDDLE
+                </div>
+                <div>
+                    MIDDLE
+                </div>
+                <div>
+                    MIDDLE
+                </div>
+                <div>
+                    MIDDLE
+                </div>
+                <div>
+                    MIDDLE
+                </div>
+                <div>
+                    MIDDLE
+                </div>
+
+
+
+
+
+            </main>
 
 
             <div style={{display : isActive ? 'none' : ''}}>

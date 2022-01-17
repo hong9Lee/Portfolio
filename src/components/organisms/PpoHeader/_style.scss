@@ -1,0 +1,177 @@
+/* 헤더 */
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background: #fff;
+
+  border: solid;
+  z-index: 1;
+}
+
+header > div {
+  width: 1400px;
+  margin: 0 auto;
+  height: 81px;
+  position: relative;
+}
+
+header h1 {
+  float: left;
+  line-height: 81px;
+  height: 81px;
+}
+
+header h1 a {
+  display: inline-block;
+}
+
+//header h1 img {width: 200px; display: block; margin-top: 12px; margin-left: -18px;}
+
+header .lnb ul {
+  font-size: 0px;
+}
+
+header .lnb li {
+  display: inline-block;
+}
+
+header .lnb li a {
+  display: block;
+  line-height: 81px;
+  padding: 0 20px;
+  font-size: 16px;
+}
+
+header .lnb li a:hover {
+  color: #004abf;
+}
+
+header .lnb li a.on {
+  color: #004abf;
+}
+
+header .menu {
+  float: left;
+  margin-left: 20px;
+}
+
+//header .account {float: right;}
+//header .account li a {padding: 0px;}
+//header .account img {width: 28px; border-radius: 50%; margin-right: 8px; margin-top: -4px;}
+//header .account .name {display: inline-block;}
+header.scroll {
+  border-bottom: 1px solid #eee;
+}
+
+header.fix {
+  border-bottom: 1px solid #eee;
+}
+
+header button {
+  display: none;
+}
+
+//header .mobile_member {display: none;}
+//header .dropdown {position: absolute; visibility: hidden; opacity : 0; transition : .2s ease-in-out; transform : translateY (-20px); top: 82px; right: 0px; width: 150px; background: #fff; border: 1px solid #eee; font-size: 14px; border-radius: 0 0 .28571429rem .28571429rem; box-shadow: 0 1px 3px 0 rgba(0,0,0,.08);}
+//header .dropdown.on {visibility : visible; opacity : 1; transform : translateY (0);}
+//header .dropdown > a {display: block; margin: 24px 24px 0px;}
+//header .dropdown > a:last-child {margin-bottom: 24px;}
+
+
+@media (max-width: 999px) {
+  /* -- 공통 컴포넌트 시작 -- */
+
+  /* 헤더 */
+  header > div {
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    height: 81px;
+  }
+  header h1 {
+    float: left;
+    line-height: 81px;
+    height: 61px;
+  }
+  header h1 a {
+    display: inline-block;
+    margin-left: 30px;
+  }
+  header h1 img {
+    margin-left: 4px;
+    margin-top: 8px;
+    width: 180px;
+  }
+  header button {
+    position: absolute;
+    top: 10px;
+    right: 4px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 12px;
+    background: transparent;
+  }
+  header button > span {
+    display: block;
+    width: 22px;
+    height: 3px;
+    border-radius: 4px;
+    background: #004abf;
+  }
+  header button > span + span {
+    margin-top: 4px;
+  }
+  header .lnb {
+    height: 0%;
+  }
+  header .lnb.collapse {
+    height: auto;
+    float: none;
+    clear: both;
+    background: #fff;
+  }
+
+  header .lnb.collapse ul {
+    display: block;
+    opacity: 1;
+  }
+  header .lnb ul {
+    display: none;
+    opacity: 0;
+    padding: 0 0 16px 0;
+    border-bottom: 1px solid #eee;
+  }
+
+  header .lnb li {
+    display: block;
+    margin-left: 20px;
+  }
+
+  header .lnb li a {
+    line-height: 44px;
+    font-size: 16px;
+  }
+
+  header .lnb.collapse + .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    right: 0;
+    background: #333333;
+    opacity: 0.5;
+  }
+
+
+  header .menu {
+    margin-left: 0px;
+  }
+
+  header .menu ul {
+    padding: 12px 0px;
+  }
+
+  header .dropdown {
+    top: 60px;
+  }
+}
