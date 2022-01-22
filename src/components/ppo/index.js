@@ -1,20 +1,21 @@
 import React, {useEffect, useState} from 'react';
 import PropTypes from 'prop-types';
-import Template from './templates';
 
-const Test = ({ match, location }) => {
-    return (<>
-            <Template/>
+const RouteTemplates = ({ match }) => {
+
+
+    return (
+        <>
         </>);
 };
 
-Test.propTypes = {
+RouteTemplates.propTypes = {
     match    : PropTypes.object,
-    location : PropTypes.object,
+    // location : PropTypes.object,
 };
 
-Test.defaultProps = {
+RouteTemplates.defaultProps = {
     match    : {},
-    location : {},
+    // location : {},
 };
-export default Test;
+export default RouteTemplates;

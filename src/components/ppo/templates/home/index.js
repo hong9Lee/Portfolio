@@ -1,7 +1,7 @@
 import React from "react";
-import Header from '../../organisms/PpoHeader';
-import Middle from '../../organisms/PpoMiddle';
-import Footer from '../../organisms/PpoFooter';
+import Header from '../../../organisms/PpoHeader';
+import Middle from '../../../organisms/PpoMiddle';
+import Footer from '../../../organisms/PpoFooter';
 
 const PpoTemplate = () => {
     return (<>
