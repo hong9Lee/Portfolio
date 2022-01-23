@@ -1,9 +1,9 @@
 import React, {useEffect} from "react";
 
 /**
- * PpoMiddle
+ * PfoMiddle
  */
-const PpoMiddle = () => {
+const PfoMiddle = () => {
 
     return (<>
             <main className="main" style={{clear : "both"}}>
@@ -21,6 +21,6 @@ const PpoMiddle = () => {
     );
 };
 
-PpoMiddle.propTypes = {};
-PpoMiddle.defaultProps = {};
-export default PpoMiddle;
+PfoMiddle.propTypes = {};
+PfoMiddle.defaultProps = {};
+export default PfoMiddle;

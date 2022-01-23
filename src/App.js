@@ -2,9 +2,9 @@ import React from 'react';
 import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import store from 'modules/store';
-import RouteTemplates from 'components/ppo/index';
-import IntroTemplates from 'components/ppo/templates/introduce';
-import HomeTemplates from 'components/ppo/templates/home'
+import IntroTemplates from 'components/pfo/templates/introduce';
+import HomeTemplates from 'components/pfo/templates/home'
+import ProjectMiddle from 'components/pfo/templates/project';
 import './App.css';
 
 function App() {
@@ -14,7 +14,8 @@ function App() {
         <Switch>
 
             <Route exact path="/" component={HomeTemplates} />
-            <Route path="/A" component={IntroTemplates} />
+            <Route path="/introduce" component={IntroTemplates} />
+            <Route path="/project" component={ProjectMiddle} />
 
         </Switch>
       </Router>

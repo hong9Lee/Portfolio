@@ -6,7 +6,15 @@ const IntroMiddle = () => {
 
             <section>
 
-                <a href='/A'>BBB</a>
+                <div>
+
+                        <a href='/'>{`
+                                honggyuLee's Portfolio Main
+                        `}
+                        </a>
+
+
+                </div>
 
             </section>
         </main>

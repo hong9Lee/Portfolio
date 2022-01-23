@@ -32,7 +32,7 @@ export function* toastQueue(action){
         active:true
     })
 
-    yield delay(1000)
+    yield delay(3000)
 
     yield put({
         type: HIDE_TOASTER,
