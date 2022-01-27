@@ -1,4 +1,6 @@
 import React, {useEffect} from "react";
+import ProjectMiddle from "../../pages/Project";
+import PageNav from "../../atoms/PageNav";
 
 /**
  * PfoMiddle
@@ -8,11 +10,10 @@ const PfoMiddle = () => {
     return (<>
             <main className="main" style={{clear : "both"}}>
 
-                <section>
+                <PageNav text="메인 페이지" href="/"/>
 
-                    <a href='/A'>AAA</a>
 
-                </section>
+
             </main>
 
 

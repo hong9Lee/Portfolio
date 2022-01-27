@@ -1,38 +1,79 @@
-/* 레이 아웃 */
-//#root{
-//  overflow-x: hidden;
-//  overflow-y: auto;
-//}
-main {
-  min-height: calc(100vh - 311px);
-  position: relative;
-  //left: 0;
-  //top: 80px;
-  width: 1400px;
-  margin: 20px auto;
-  //padding-top: 81px;
-
-  //border: solid blue;
-}
-
-main > div {
+main section {
   width: 100%;
-  margin: 0 auto;
-  height: 100%;
-  position: relative;
-
-  //border: solid red;
 }
 
-//main section > div {
-//  width: 1200px;
-//  margin: 0 auto;
-//  position: relative;
-//  box-sizing: border-box;
-//}
+main section > div {
+  width: 1200px;
+  margin: 50px auto;
+  position: relative;
+  box-sizing: border-box;
+}
 
-main > div {
-  padding: 40px 0;
+main section > div {
+  width: 1200px;
+  margin: 50px auto;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.title_section h2 {
+  font-size: 28px;
+  font-weight: 300;
+}
+
+
+
+
+.detail_section .intro_box .intro {
+  display: flex;
+  width: 100%;
+}
+
+.detail_section .intro_box .intro .intro_img{
+  margin: 0 60px 0 0;
+
+}
+
+.detail_section .intro_box .intro .intro_img img{
+  width: 350px;
+  height: 300px;
+}
+
+.detail_section .intro_box > li {
+  display: flex;
+  align-items: center;
+  margin: 28px 0;
+}
+
+.detail_section .intro_box .intro .box_list {
+  flex-flow: row wrap;
+  //width: 100%;
+  width: 700px;
+  display: flex;
+  height: 350px;
+}
+
+.detail_section .intro_box .intro .box_list img {
+  width: 60px;
+  height: 60px;
+}
+
+.detail_section .intro_box .intro .box_list .contents {
+  margin: 10px 0 0 17px;
+}
+
+.detail_section .intro_box .intro .box_list .contents h2 {
+  font-weight: 600;
+}
+
+.detail_section .intro_box .intro .box_list .contents p {
+  //font-family: "NotoSans", sans-serif;
+  font-size: 13px;
+}
+
+.int {
+  width: 50%;
+  display: flex;
 }
 
 
@@ -42,7 +83,7 @@ main > div {
     //padding-top: 81px;
     margin: 20px auto;
   }
-  main section{
+  main section {
     margin: 20px auto;
   }
 
