@@ -1,0 +1,25 @@
+footer {
+  //border: solid purple;
+  position:relative;
+  background:#e2e7ed;
+
+  margin: 0 auto;
+  bottom:0;
+  //width:1400px;
+}
+
+footer > div {
+  height: 100%;
+
+  width: 1400px;
+  margin: 0 auto;
+  position: relative;
+  box-sizing: border-box;
+  padding: 40px 0px;
+}
+
+@media (max-width: 999px) {
+  footer > div {
+    width: 100%;
+  }
+}

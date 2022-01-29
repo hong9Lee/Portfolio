@@ -1,0 +1,98 @@
+
+main section {
+  width: 100%;
+}
+
+main section > div {
+  width: 1200px;
+  margin: 60px auto;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.title_section h2 {
+  font-size: 28px;
+  font-weight: 300;
+}
+
+.company_nm {
+  font-weight: 700;
+}
+
+.detail_section .project-box {
+  margin: 0 0 0 40px;
+}
+
+.detail_section .project-box > li{
+  display: flex;
+  align-items: center;
+  margin: 28px 0;
+}
+
+.detail_section .project-box .intro {
+  display: flex;
+}
+
+.detail_section .project-box .intro .intro_img{
+  margin: 0 28px 0 0;
+}
+
+.detail_section .project-box .intro .intro_img.ics {
+  background-color: white;
+  border-radius: 50%;
+  width: 47px;
+  height: 49px;
+}
+
+.detail_section .project-box .intro .intro_img.ics img {
+  width: 35px;
+  margin: 11px 0 0 5px;
+}
+
+.detail_section .project-box .intro .intro_img.jcop {
+  background-color: white;
+  border-radius: 50%;
+  width: 47px;
+  height: 49px;
+}
+
+.detail_section .project-box .intro .intro_img.jcop img {
+  width: 54px;
+  margin: 11px 0 0 5px;
+}
+
+.detail_section .project-box .intro .intro_img img{
+  width: 48px;
+}
+
+.detail_section .project-box .intro .intro_contents{
+  margin: 0 40px 0 0;
+  min-width: 200px;
+}
+
+.detail_section .project-box .contents {
+  font-size: 14px;
+  margin: 0 60px 0 0;
+  min-width: 300px;
+}
+
+.detail_section .project-box .links a {
+  font-size: 14px;
+  display: inline-block;
+  border-radius: 60px;
+  height: 36px;
+  //width: 81px;
+  padding: 0 24px;
+  line-height: 36px;
+  border: 1px solid hsla(0,0%,59.2%,.24);
+  background-color: #fff;
+
+}
+
+
+
+@media (max-width: 999px) {
+
+
+}
+

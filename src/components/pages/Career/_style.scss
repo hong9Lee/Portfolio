@@ -1,0 +1,41 @@
+
+main section {
+  width: 100%;
+}
+
+main section > div {
+  width: 1200px;
+  margin: 60px auto;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.title_section h2 {
+  font-size: 28px;
+  font-weight: 300;
+}
+
+.contents_section .roadmap > li {
+  display: flex;
+  align-items: center;
+  margin: 28px 0;
+}
+
+.contents_section .roadmap .contents {
+  width: 100%;
+  display: flex;
+}
+
+.fx {
+  display: flex;
+}
+
+
+
+
+
+@media (max-width: 999px) {
+
+
+}
+

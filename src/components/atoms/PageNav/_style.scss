@@ -1,0 +1,41 @@
+section {
+  width: 100%;
+}
+
+.pmNav {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.arr::after {
+  content: ' ';
+  height: 0;
+  width: 0;
+  position: absolute;
+  top : 5px;
+  border: 4px solid transparent;
+  border-right-width: 0;
+  border-left-color: gray;
+}
+
+
+
+.homeHref {
+  margin: 0 10px 0 0;
+  position: relative;
+}
+
+.projectHref {
+  color: gray;
+  margin: 0 0 0 17px;
+  font-weight: 700;
+}
+
+
+@media (max-width: 999px) {
+
+
+}
+
