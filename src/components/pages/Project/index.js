@@ -17,6 +17,8 @@ const ProjectMiddle = () => {
                     </div>
                 </section>
 
+            {/* TODO: 회사 기술 소개 추가 */}
+
                 <section className="detail_section">
                     <div>
 
@@ -49,7 +51,7 @@ const ProjectMiddle = () => {
                             <li>
                                 <div className="intro">
                                     <div className="intro_img">
-                                        <img src="/images/project/ppis.png" alt="연세세브란스 로고"/>
+                                        <img src="/images/project/ppis.png" alt="정부 로고"/>
                                     </div>
                                     <div className="intro_contents">
                                         <p className="company_nm">대전광역시 조달청</p>

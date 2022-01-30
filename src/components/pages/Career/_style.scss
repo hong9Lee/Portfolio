@@ -15,20 +15,80 @@ main section > div {
   font-weight: 300;
 }
 
-.contents_section .roadmap > li {
-  display: flex;
-  align-items: center;
-  margin: 28px 0;
+.contents_section .contents_container {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 71.25rem;
+  padding: 4rem 2rem;
+  margin: 0 auto;
 }
 
-.contents_section .roadmap .contents {
+.contents_section .contents_container .contents {
   width: 100%;
   display: flex;
+  margin-top: 30px;
+}
+
+.contents_section .contents_container .contents .contents_left_div {
+  padding-right: 3rem;
+  border-right: 1px solid #ccc;
+  width: 25%;
+  text-align: center;
+}
+
+.contents_section .contents_container .contents .contents_left_div .history {
+  margin: 3px;
+}
+
+.contents_section .contents_container .contents .idx1 {
+  height: 250px;
+  //border: 2px solid;
+}
+
+
+.contents_section .contents_container .contents .contents_right_div {
+  margin: 0 0 0 44px;
+}
+
+.contents_section .contents_container .contents .contents_right_div .right_inner_div {
+  //height: 300px;
+}
+
+.contents_section .contents_container .contents li {
+  list-style: square;
+}
+
+.contents_section .contents_container .contents .contents_right_div .title_div {
+  display: flex;
+  cursor: pointer;
+}
+
+.contents_section .contents_container .contents .contents_right_div .title_div img {
+  width: 50px;
+  height: 50px;
+}
+
+.contents_section .contents_container .contents .contents_right_div .title_inner_div p {
+  //line-height: 60px;
+  margin-left: 20px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.contents_section .contents_container .contents .contents_right_div .title_inner_div h3 {
+  margin-left: 20px;
+}
+
+
+.contents_section .contents_container .contents .contents_right_div li {
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .fx {
   display: flex;
 }
+
 
 
 
