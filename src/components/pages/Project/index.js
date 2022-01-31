@@ -38,8 +38,8 @@ const ProjectMiddle = () => {
 
                                 <div className="contents">
                                     <ul>
-                                        <li>SpringBoot, JPA, HTML/CSS, JQuery</li>
-                                        <li>비즈니스 DB 구축 및 CRM 웹 애플리케이션 개발</li>
+                                        <li>NodeJS, Nifi, ElasticSearch, MySQL</li>
+                                        <li>제주화장품 홈페이지 검색 시스템 개발 및 배포</li>
                                     </ul>
                                 </div>
                                 <div className="links">
@@ -64,8 +64,8 @@ const ProjectMiddle = () => {
 
                                 <div className="contents">
                                     <ul>
-                                        <li>SpringBoot, JPA, HTML/CSS, JQuery</li>
-                                        <li>비즈니스 DB 구축 및 CRM 웹 애플리케이션 개발</li>
+                                        <li>NodeJS, Nifi, ElasticSearch, Oracle</li>
+                                        <li>발주지원시스템 검색 시스템 개발 및 배포 (파견근무)</li>
                                     </ul>
                                 </div>
                                 <div className="links">
@@ -90,8 +90,8 @@ const ProjectMiddle = () => {
 
                                 <div className="contents">
                                     <ul>
-                                        <li>SpringBoot, JPA, HTML/CSS, JQuery</li>
-                                        <li>비즈니스 DB 구축 및 CRM 웹 애플리케이션 개발</li>
+                                        <li>Java, SpringBoot, Maven, Oracle, ElasticSearch, Logstash</li>
+                                        <li>기업평가 자동화 지원 Library 개발</li>
                                     </ul>
                                 </div>
                                 <div className="links">
@@ -116,8 +116,8 @@ const ProjectMiddle = () => {
 
                                 <div className="contents">
                                     <ul>
-                                        <li>SpringBoot, JPA, HTML/CSS, JQuery</li>
-                                        <li>비즈니스 DB 구축 및 CRM 웹 애플리케이션 개발</li>
+                                        <li>HTML/CSS, React, NodeJS, Express, ElasticSearch, Logstash</li>
+                                        <li>React 기반의 민원 상담 챗봇 개발 및 배포 (파견근무)</li>
                                     </ul>
                                 </div>
                                 <div className="links">
@@ -140,8 +140,8 @@ const ProjectMiddle = () => {
 
                                 <div className="contents">
                                     <ul>
-                                        <li>SpringBoot, JPA, HTML/CSS, JQuery</li>
-                                        <li>비즈니스 DB 구축 및 CRM 웹 애플리케이션 개발</li>
+                                        <li>HTML/CSS, React, NodeJS, Express, ElasticSearch</li>
+                                        <li>React 기반의 상담 챗봇 개발 및 배포</li>
                                     </ul>
                                 </div>
                                 <div className="links">
@@ -156,20 +156,15 @@ const ProjectMiddle = () => {
             <section>
                 <div>
                     <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    개인프로젝트 {`
+                    ->`}
+                    hongtudio_admin, Portfolio
                 </div>
             </section>
 
-            <section>
-                <div>
-                    <br/>
-                </div>
-            </section>
-
-            <section>
-                <div>
-                    <br/>
-                </div>
-            </section>
 
         </main>
     </>);

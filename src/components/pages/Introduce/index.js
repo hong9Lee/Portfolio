@@ -132,10 +132,10 @@ const IntroMiddle = () => {
                                     <img src="/images/introduce/calender.png" alt="me img"/>
                                     <div>
                                         <h2>
-                                            HTML
+                                            CSS
                                             <span>실무</span>
                                         </h2>
-                                        <span>태그를 활용한 마크업</span>
+                                        <span>-</span>
                                     </div>
                                 </li>
 
@@ -143,10 +143,10 @@ const IntroMiddle = () => {
                                     <img src="/images/introduce/calender.png" alt="me img"/>
                                     <div>
                                         <h2>
-                                            HTML
+                                            Javascript
                                             <span>실무</span>
                                         </h2>
-                                        <span>태그를 활용한 마크업</span>
+                                        <span>-</span>
                                     </div>
                                 </li>
 
@@ -154,10 +154,10 @@ const IntroMiddle = () => {
                                     <img src="/images/introduce/calender.png" alt="me img"/>
                                     <div>
                                         <h2>
-                                            HTML
+                                            React
                                             <span>실무</span>
                                         </h2>
-                                        <span>태그를 활용한 마크업</span>
+                                        <span>-</span>
                                     </div>
                                 </li>
 
@@ -165,10 +165,10 @@ const IntroMiddle = () => {
                                     <img src="/images/introduce/calender.png" alt="me img"/>
                                     <div>
                                         <h2>
-                                            HTML
+                                            Jquery
                                             <span>실무</span>
                                         </h2>
-                                        <span>태그를 활용한 마크업</span>
+                                        <span>-</span>
                                     </div>
                                 </li>
 
@@ -176,37 +176,10 @@ const IntroMiddle = () => {
                                     <img src="/images/introduce/calender.png" alt="me img"/>
                                     <div>
                                         <h2>
-                                            HTML
+                                            Thymeleaf
                                             <span>실무</span>
                                         </h2>
-                                        <span>태그를 활용한 마크업</span>
-                                    </div>
-                                </li>
-
-                            </ul>
-                        </div>
-
-                    </div>
-
-                    <div className="fx contents_div">
-                        <div className="skills_intro_div">
-                            <img src="/images/introduce/calender.png" alt="me img"/>
-                            <div>
-                                <h3>Frontend</h3>
-                                <p>퍼블리싱 & 프레임워크</p>
-                            </div>
-                        </div>
-
-                        <div className="skills_contents_div">
-                            <ul>
-                                <li>
-                                    <img src="/images/introduce/calender.png" alt="me img"/>
-                                    <div>
-                                        <h2>
-                                            HTML
-                                            <span>실무</span>
-                                        </h2>
-                                        <span>태그를 활용한 마크업</span>
+                                        <span>-</span>
                                     </div>
                                 </li>
 
@@ -214,54 +187,10 @@ const IntroMiddle = () => {
                                     <img src="/images/introduce/calender.png" alt="me img"/>
                                     <div>
                                         <h2>
-                                            HTML
+                                            ejs
                                             <span>실무</span>
                                         </h2>
-                                        <span>태그를 활용한 마크업</span>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <img src="/images/introduce/calender.png" alt="me img"/>
-                                    <div>
-                                        <h2>
-                                            HTML
-                                            <span>실무</span>
-                                        </h2>
-                                        <span>태그를 활용한 마크업</span>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <img src="/images/introduce/calender.png" alt="me img"/>
-                                    <div>
-                                        <h2>
-                                            HTML
-                                            <span>실무</span>
-                                        </h2>
-                                        <span>태그를 활용한 마크업</span>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <img src="/images/introduce/calender.png" alt="me img"/>
-                                    <div>
-                                        <h2>
-                                            HTML
-                                            <span>실무</span>
-                                        </h2>
-                                        <span>태그를 활용한 마크업</span>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <img src="/images/introduce/calender.png" alt="me img"/>
-                                    <div>
-                                        <h2>
-                                            HTML
-                                            <span>실무</span>
-                                        </h2>
-                                        <span>태그를 활용한 마크업</span>
+                                        <span>-</span>
                                     </div>
                                 </li>
 
@@ -274,8 +203,8 @@ const IntroMiddle = () => {
                         <div className="skills_intro_div">
                             <img src="/images/introduce/calender.png" alt="me img"/>
                             <div>
-                                <h3>Frontend</h3>
-                                <p>퍼블리싱 & 프레임워크</p>
+                                <h3>Backend</h3>
+                                <p>Web & RestAPI</p>
                             </div>
                         </div>
 
@@ -285,10 +214,10 @@ const IntroMiddle = () => {
                                     <img src="/images/introduce/calender.png" alt="me img"/>
                                     <div>
                                         <h2>
-                                            HTML
+                                            NodeJS
                                             <span>실무</span>
                                         </h2>
-                                        <span>태그를 활용한 마크업</span>
+                                        <span>-</span>
                                     </div>
                                 </li>
 
@@ -296,10 +225,10 @@ const IntroMiddle = () => {
                                     <img src="/images/introduce/calender.png" alt="me img"/>
                                     <div>
                                         <h2>
-                                            HTML
+                                            Express
                                             <span>실무</span>
                                         </h2>
-                                        <span>태그를 활용한 마크업</span>
+                                        <span>-</span>
                                     </div>
                                 </li>
 
@@ -307,10 +236,10 @@ const IntroMiddle = () => {
                                     <img src="/images/introduce/calender.png" alt="me img"/>
                                     <div>
                                         <h2>
-                                            HTML
+                                            ElasticSearch
                                             <span>실무</span>
                                         </h2>
-                                        <span>태그를 활용한 마크업</span>
+                                        <span>-</span>
                                     </div>
                                 </li>
 
@@ -318,10 +247,10 @@ const IntroMiddle = () => {
                                     <img src="/images/introduce/calender.png" alt="me img"/>
                                     <div>
                                         <h2>
-                                            HTML
+                                            Logstash
                                             <span>실무</span>
                                         </h2>
-                                        <span>태그를 활용한 마크업</span>
+                                        <span>-</span>
                                     </div>
                                 </li>
 
@@ -329,10 +258,10 @@ const IntroMiddle = () => {
                                     <img src="/images/introduce/calender.png" alt="me img"/>
                                     <div>
                                         <h2>
-                                            HTML
+                                            Nifi
                                             <span>실무</span>
                                         </h2>
-                                        <span>태그를 활용한 마크업</span>
+                                        <span>-</span>
                                     </div>
                                 </li>
 
@@ -340,10 +269,169 @@ const IntroMiddle = () => {
                                     <img src="/images/introduce/calender.png" alt="me img"/>
                                     <div>
                                         <h2>
-                                            HTML
+                                            Java
                                             <span>실무</span>
                                         </h2>
-                                        <span>태그를 활용한 마크업</span>
+                                        <span>-</span>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <img src="/images/introduce/calender.png" alt="me img"/>
+                                    <div>
+                                        <h2>
+                                            SpringBoot
+                                            <span>실무</span>
+                                        </h2>
+                                        <span>-</span>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <img src="/images/introduce/calender.png" alt="me img"/>
+                                    <div>
+                                        <h2>
+                                            JPA
+                                            <span>실무</span>
+                                        </h2>
+                                        <span>-</span>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <img src="/images/introduce/calender.png" alt="me img"/>
+                                    <div>
+                                        <h2>
+                                            h2
+                                            <span>실무</span>
+                                        </h2>
+                                        <span>-</span>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <img src="/images/introduce/calender.png" alt="me img"/>
+                                    <div>
+                                        <h2>
+                                            MySql, Oracle
+                                            <span>실무</span>
+                                        </h2>
+                                        <span>-</span>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <img src="/images/introduce/calender.png" alt="me img"/>
+                                    <div>
+                                        <h2>
+                                            Redis
+                                            <span>실무</span>
+                                        </h2>
+                                        <span>-</span>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <img src="/images/introduce/calender.png" alt="me img"/>
+                                    <div>
+                                        <h2>
+                                            Ruby
+                                            <span>실무</span>
+                                        </h2>
+                                        <span>-</span>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <img src="/images/introduce/calender.png" alt="me img"/>
+                                    <div>
+                                        <h2>
+                                            Python
+                                            <span>실무</span>
+                                        </h2>
+                                        <span>-</span>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div className="fx contents_div">
+                        <div className="skills_intro_div">
+                            <img src="/images/introduce/calender.png" alt="me img"/>
+                            <div>
+                                <h3>Server</h3>
+                                <p>구축 & 배포</p>
+                            </div>
+                        </div>
+
+                        <div className="skills_contents_div">
+                            <ul>
+                                <li>
+                                    <img src="/images/introduce/calender.png" alt="me img"/>
+                                    <div>
+                                        <h2>
+                                            Linux
+                                            <span>실무</span>
+                                        </h2>
+                                        <span>-</span>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <img src="/images/introduce/calender.png" alt="me img"/>
+                                    <div>
+                                        <h2>
+                                            Git
+                                            <span>실무</span>
+                                        </h2>
+                                        <span>-</span>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <img src="/images/introduce/calender.png" alt="me img"/>
+                                    <div>
+                                        <h2>
+                                            Bitbucket
+                                            <span>실무</span>
+                                        </h2>
+                                        <span>-</span>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <img src="/images/introduce/calender.png" alt="me img"/>
+                                    <div>
+                                        <h2>
+                                            JUnit
+                                            <span>실무</span>
+                                        </h2>
+                                        <span>-</span>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <img src="/images/introduce/calender.png" alt="me img"/>
+                                    <div>
+                                        <h2>
+                                            AWS
+                                            <span>실무</span>
+                                        </h2>
+                                        <span>-</span>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <img src="/images/introduce/calender.png" alt="me img"/>
+                                    <div>
+                                        <h2>
+                                            Tomcat
+                                            <span>실무</span>
+                                        </h2>
+                                        <span>-</span>
                                     </div>
                                 </li>
 

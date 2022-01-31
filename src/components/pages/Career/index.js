@@ -6,7 +6,7 @@ const Career = () => {
         <main className="main" style={{clear : "both"}}>
             <PageNav text="커리어" href="/career"/>
 
-            <section className="title_section">
+            <section className="career_title_section">
                 <div>
                     <h2>
                         커리어 소개
