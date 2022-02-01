@@ -29,9 +29,33 @@ const Career = () => {
                                 </h3>
                             </div>
 
-                            <div className="history">
+                            <div className="idx2 history">
                                 <h3>
                                     2020.01
+                                </h3>
+                            </div>
+
+                            <div className="idx2 history">
+                                <h3>
+                                    2020.05
+                                </h3>
+                            </div>
+
+                            <div className="idx2 history">
+                                <h3>
+                                    2020.10
+                                </h3>
+                            </div>
+
+                            <div className="idx2 history">
+                                <h3>
+                                    2021.05
+                                </h3>
+                            </div>
+
+                            <div className="idx2 history">
+                                <h3>
+                                    2022.01
                                 </h3>
                             </div>
                         </div>
@@ -69,13 +93,13 @@ const Career = () => {
                             </div>
 
 
-                            <div className="right_inner_div">
+                            <div className="idx2 right_inner_div">
                                 <div className="title_div"
                                      onClick={() => window.open("http://chatbot.yuhs.ac", "_blank")}>
                                     <img src="/images/project/yonsei.png" alt="연세세브란스 로고"/>
                                     <div className="title_inner_div">
                                         <p>연세 세브란스 챗봇 구축 사업 투입</p>
-                                        <h3>-</h3>
+                                        <h3>#연세세브란스 #챗봇</h3>
                                     </div>
                                 </div>
 
@@ -83,11 +107,96 @@ const Career = () => {
                                     <br/>
                                     <br/>
                                     <li>챗봇 React 공통 템플릿을 가지고 개발자 1인으로 투입됨.</li>
+                                    <li>퍼블리싱부터 기능개발, API 서버 개발, 배포 까지 맡았음.</li>
+                                    <li>고객 요구사항을 파악하는 회의부터 배포, 운영까지 사업의 전과정을 경험해 볼 수 있었음.</li>
                                 </div>
-
-
                             </div>
 
+
+                            <div className="idx2 right_inner_div">
+                                <div className="title_div"
+                                     onClick={() => window.open("http://chatbot.yuhs.ac", "_blank")}>
+                                    <img src="/images/project/ics.png" alt="인천 서구청 로고"/>
+                                    <div className="title_inner_div">
+                                        <p>인천광역시 서구청 챗봇 구축 사업 투입</p>
+                                        <h3>#인천서구청 #챗봇</h3>
+                                    </div>
+                                </div>
+
+                                <div className="contents_div">
+                                    <br/>
+                                    <br/>
+                                    <li>개발자 2인으로 PM, PL, 시나리오 작가 포함 총 6명 투입됨.</li>
+                                    <li>전달받은 퍼블리싱을 적용, 기능개발, API 서버 개발, 배포, 운영 까지 맡았음.</li>
+                                    <li>ElasticSearch의 데이터를 총 3대의 서버에 클러스터링 하여 구축 하였음.</li>
+                                </div>
+                            </div>
+
+
+                            <div className="idx2 right_inner_div">
+                                <div className="title_div"
+                                     onClick={() => window.open("http://chatbot.yuhs.ac", "_blank")}>
+                                    <img src="/images/project/nice.jpg" alt="나이스평가정보 로고"/>
+                                    <div className="title_inner_div">
+                                        <p>나이스평가정보 기업평가시스템 자동화 사업 투입</p>
+                                        <h3>#나이스평가정보 #Library개발 #수집색인</h3>
+                                    </div>
+                                </div>
+
+                                <div className="contents_div">
+                                    <br/>
+                                    <br/>
+                                    <li>개발자 2인으로 PM, 작가(분석) 포함 총 4명 투입됨.</li>
+                                    <li>고객사의 소극적인 태도로 가장 힘들었던 사업임.</li>
+                                    <li>평가자료를 만들기 위해 원천DB의 기업 재무재표 분석이 필요했음. <br/>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;떄문에 NodeJS를 이용해 원천DB를 엑셀로 출력하는 서버를 구축함.</li>
+                                    <li>나이스 평가정보의 원천DB를 Logstash를 이용해 수집, 색인함. (약 1억3천만건)</li>
+
+
+                                    <br/>
+                                    <br/>
+                                    <li>신규입사자(신입) 개발자들에게 회사 기술스택 교육.</li>
+                                </div>
+                            </div>
+
+
+                            <div className="idx2 right_inner_div">
+                                <div className="title_div"
+                                     onClick={() => window.open("http://chatbot.yuhs.ac", "_blank")}>
+                                    <img src="/images/project/ppis.png" alt="정부 로고"/>
+                                    <div className="title_inner_div">
+                                        <p>조달요청 발주지원 검색 시스템 구축 사업 투입</p>
+                                        <h3>#조달청 #검색 #수집색인</h3>
+                                    </div>
+                                </div>
+
+                                <div className="contents_div">
+                                    <br/>
+                                    <br/>
+                                    <li>개발자 3인으로 PM, PL, 작가(분석) 포함 총 8명 투입됨.</li>
+                                    <li>검색파트는 단독투입이며 조달청 원천DB 수집 및 색인, 검색 API 개발, 배포 까지 맡았음.</li>
+
+                                </div>
+                            </div>
+
+                            <div className="idx2 right_inner_div">
+                                <div className="title_div"
+                                     onClick={() => window.open("http://chatbot.yuhs.ac", "_blank")}>
+                                    <img src="/images/project/jcop.png" alt="제주화장품 로고"/>
+                                    <div className="title_inner_div">
+                                        <p>제주화장품 검색 시스템 구축 사업 투입</p>
+                                        <h3>#제주화장품 #검색 #수집색인</h3>
+                                    </div>
+                                </div>
+
+                                <div className="contents_div">
+                                    <br/>
+                                    <br/>
+                                    <li>개발자 1인으로 PM 포함 총 2명 투입됨.</li>
+                                    <li>제주화장품 원천DB 수집 및 색인, 검색 API 개발, 배포 까지 맡았음.</li>
+
+                                </div>
+                            </div>
 
                         </div>
                     </div>

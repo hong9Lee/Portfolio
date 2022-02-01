@@ -27,7 +27,7 @@ const ProjectMiddle = () => {
                             <li>
                                 <div className="intro">
                                     <div className="intro_img jcop">
-                                        <img src="/images/project/jcop.png" alt="연세세브란스 로고"/>
+                                        <img src="/images/project/jcop.png" alt="제주화장품 로고"/>
                                     </div>
                                     <div className="intro_contents">
                                         <p className="company_nm">제주화장품</p>
@@ -77,7 +77,7 @@ const ProjectMiddle = () => {
                             <li>
                                 <div className="intro">
                                     <div className="intro_img">
-                                        <img src="/images/project/nice.jpg" alt="연세세브란스 로고"/>
+                                        <img src="/images/project/nice.jpg" alt="나이스평가정보 로고"/>
                                     </div>
                                     <div className="intro_contents">
                                         <p className="company_nm">나이스 평가정보</p>
@@ -90,7 +90,8 @@ const ProjectMiddle = () => {
 
                                 <div className="contents">
                                     <ul>
-                                        <li>Java, SpringBoot, Maven, Oracle, ElasticSearch, Logstash</li>
+                                        <li>Java, SpringBoot, JUnit, JMeter, 성능테스트, Maven, Oracle,<br/>
+                                            ElasticSearch, Logstash</li>
                                         <li>기업평가 자동화 지원 Library 개발</li>
                                     </ul>
                                 </div>
@@ -103,7 +104,7 @@ const ProjectMiddle = () => {
                             <li>
                                 <div className="intro">
                                     <div className="intro_img ics">
-                                        <img src="/images/project/ics.png" alt="연세세브란스 로고"/>
+                                        <img src="/images/project/ics.png" alt="인천 서구청 로고"/>
                                     </div>
                                     <div className="intro_contents">
                                         <p className="company_nm">인천광역시 서구청</p>
@@ -116,7 +117,7 @@ const ProjectMiddle = () => {
 
                                 <div className="contents">
                                     <ul>
-                                        <li>HTML/CSS, React, NodeJS, Express, ElasticSearch, Logstash</li>
+                                        <li>HTML/CSS, React, NodeJS, Express, ElasticSearch, Logstash, 웹진단도구</li>
                                         <li>React 기반의 민원 상담 챗봇 개발 및 배포 (파견근무)</li>
                                     </ul>
                                 </div>
