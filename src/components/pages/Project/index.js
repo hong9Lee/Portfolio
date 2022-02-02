@@ -90,8 +90,7 @@ const ProjectMiddle = () => {
 
                                 <div className="contents">
                                     <ul>
-                                        <li>Java, SpringBoot, JUnit, JMeter, 성능테스트, Maven, Oracle,<br/>
-                                            ElasticSearch, Logstash</li>
+                                        <li>Java, Spring, JUnit, JMeter, Maven, Oracle, ElasticSearch, Logstash</li>
                                         <li>기업평가 자동화 지원 Library 개발</li>
                                     </ul>
                                 </div>
@@ -117,7 +116,7 @@ const ProjectMiddle = () => {
 
                                 <div className="contents">
                                     <ul>
-                                        <li>HTML/CSS, React, NodeJS, Express, ElasticSearch, Logstash, 웹진단도구</li>
+                                        <li>HTML/CSS, React, NodeJS, Express, ElasticSearch, Logstash</li>
                                         <li>React 기반의 민원 상담 챗봇 개발 및 배포 (파견근무)</li>
                                     </ul>
                                 </div>

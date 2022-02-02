@@ -109,7 +109,7 @@ main section > div {
   padding: 1rem;
   border-radius: 3rem;
 
-  background-color: ghostwhite;
+  //background-color: ghostwhite;
 }
 
 .skills_section .contents_div .skills_intro_div {
@@ -135,11 +135,39 @@ main section > div {
   width: 70%;
 }
 
+.skills_section .contents_div .skills_contents_div .skills_round_box {
+  border-radius: 3rem;
+  //background-color: ghostwhite;
+  //background-color: #f9f9f9;
+
+  border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.skills_section .contents_div .skills_contents_div .skills_round_box:hover {
+  background-color: #f9f9f9;
+  //cursor: pointer;
+}
+
+.skills_section .contents_div .skills_contents_div .skills_round_text {
+  float: right;
+}
+
+.skills_section .contents_div .skills_contents_div .skills_round_text p {
+  color: black;
+  font-weight: 400;
+}
+
 .skills_section .contents_div .skills_contents_div ul li {
-  width: 33.3%;
+  //width: 33.3%;
+  width: 27%;
   display: inline-block;
-  margin: 0 0 28px 0;
+  //margin: 0 0 28px 0;
+  margin: 19px;
   height: 48px;
+}
+
+.skills_section .contents_div .skills_contents_div ul li h2 {
+  font-size: 17px;
 }
 
 .skills_section .contents_div .skills_contents_div ul li img{

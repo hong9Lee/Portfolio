@@ -108,7 +108,7 @@ const IntroMiddle = () => {
 
                     <div className="fx contents_div">
                         <div className="skills_intro_div">
-                            <img src="/images/introduce/calender.png" alt="me img"/>
+                            <img src="/images/introduce/frontend.png" alt="me img"/>
                             <div>
                                 <h3>Frontend</h3>
                                 <p>퍼블리싱 & 프레임워크</p>
@@ -117,82 +117,74 @@ const IntroMiddle = () => {
 
                         <div className="skills_contents_div">
                             <ul>
+                                <div className="skills_round_box">
+                                    <div className="skills_round_text">
+                                        <p>실무</p>
+                                    </div>
                                 <li>
-                                    <img src="/images/introduce/calender.png" alt="me img"/>
+                                    <img src="/images/introduce/html.png" alt="me img"/>
                                     <div>
                                         <h2>
-                                            HTML
-                                            <span>실무</span>
+                                            HTML/CSS
                                         </h2>
-                                        <span>태그를 활용한 마크업</span>
+                                        <p>태그를 활용한 마크업</p>
                                     </div>
                                 </li>
 
                                 <li>
-                                    <img src="/images/introduce/calender.png" alt="me img"/>
-                                    <div>
-                                        <h2>
-                                            CSS
-                                            <span>실무</span>
-                                        </h2>
-                                        <span>-</span>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <img src="/images/introduce/calender.png" alt="me img"/>
+                                    <img src="/images/introduce/js.png" alt="me img"/>
                                     <div>
                                         <h2>
                                             Javascript
-                                            <span>실무</span>
                                         </h2>
-                                        <span>-</span>
+                                        <p>ES6 문법 활용</p>
                                     </div>
                                 </li>
 
                                 <li>
-                                    <img src="/images/introduce/calender.png" alt="me img"/>
+                                    <img src="/images/introduce/react.svg" alt="me img"/>
                                     <div>
                                         <h2>
                                             React
-                                            <span>실무</span>
                                         </h2>
-                                        <span>-</span>
+                                        <p>Redux, Saga, Hook 활용</p>
                                     </div>
                                 </li>
 
                                 <li>
-                                    <img src="/images/introduce/calender.png" alt="me img"/>
+                                    <img src="/images/introduce/jquery.png" alt="me img"/>
                                     <div>
                                         <h2>
                                             Jquery
-                                            <span>실무</span>
                                         </h2>
-                                        <span>-</span>
+                                        <p>라이브러리 활용</p>
                                     </div>
                                 </li>
 
                                 <li>
-                                    <img src="/images/introduce/calender.png" alt="me img"/>
+                                    <img src="/images/introduce/ejs.png" alt="me img"/>
+                                    <div>
+                                        <h2>
+                                            Ejs
+                                        </h2>
+                                        <p>뷰 템플릿으로 사용</p>
+                                    </div>
+                                </li>
+
+                                </div>
+
+                                <li>
+                                    <img src="/images/introduce/thymeleaf.png" alt="me img"/>
                                     <div>
                                         <h2>
                                             Thymeleaf
-                                            <span>실무</span>
+                                            <span>토이</span>
                                         </h2>
-                                        <span>-</span>
+                                        <p>뷰 템플릿으로 사용</p>
                                     </div>
                                 </li>
 
-                                <li>
-                                    <img src="/images/introduce/calender.png" alt="me img"/>
-                                    <div>
-                                        <h2>
-                                            ejs
-                                            <span>실무</span>
-                                        </h2>
-                                        <span>-</span>
-                                    </div>
-                                </li>
+
 
                             </ul>
                         </div>
@@ -247,18 +239,7 @@ const IntroMiddle = () => {
                                     <img src="/images/introduce/calender.png" alt="me img"/>
                                     <div>
                                         <h2>
-                                            Logstash
-                                            <span>실무</span>
-                                        </h2>
-                                        <span>-</span>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <img src="/images/introduce/calender.png" alt="me img"/>
-                                    <div>
-                                        <h2>
-                                            Nifi
+                                            Nifi, Logstash
                                             <span>실무</span>
                                         </h2>
                                         <span>-</span>
@@ -280,7 +261,7 @@ const IntroMiddle = () => {
                                     <img src="/images/introduce/calender.png" alt="me img"/>
                                     <div>
                                         <h2>
-                                            SpringBoot
+                                            Spring
                                             <span>실무</span>
                                         </h2>
                                         <span>-</span>
@@ -335,7 +316,7 @@ const IntroMiddle = () => {
                                     <img src="/images/introduce/calender.png" alt="me img"/>
                                     <div>
                                         <h2>
-                                            Ruby
+                                            Ruby, Python
                                             <span>실무</span>
                                         </h2>
                                         <span>-</span>
@@ -346,7 +327,7 @@ const IntroMiddle = () => {
                                     <img src="/images/introduce/calender.png" alt="me img"/>
                                     <div>
                                         <h2>
-                                            Python
+                                            JUnit, JMeter
                                             <span>실무</span>
                                         </h2>
                                         <span>-</span>
@@ -384,34 +365,13 @@ const IntroMiddle = () => {
                                     <img src="/images/introduce/calender.png" alt="me img"/>
                                     <div>
                                         <h2>
-                                            Git
+                                            Git, Bitbucket
                                             <span>실무</span>
                                         </h2>
                                         <span>-</span>
                                     </div>
                                 </li>
 
-                                <li>
-                                    <img src="/images/introduce/calender.png" alt="me img"/>
-                                    <div>
-                                        <h2>
-                                            Bitbucket
-                                            <span>실무</span>
-                                        </h2>
-                                        <span>-</span>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <img src="/images/introduce/calender.png" alt="me img"/>
-                                    <div>
-                                        <h2>
-                                            JUnit
-                                            <span>실무</span>
-                                        </h2>
-                                        <span>-</span>
-                                    </div>
-                                </li>
 
                                 <li>
                                     <img src="/images/introduce/calender.png" alt="me img"/>

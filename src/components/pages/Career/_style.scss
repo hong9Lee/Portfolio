@@ -46,13 +46,25 @@ main section > div {
 }
 
 .contents_section .contents_container .contents .idx1 {
-  height: 300px;
+  height: 330px;
   //border: 2px solid;
 }
 
 .contents_section .contents_container .contents .idx2 {
-  height: 300px;
+  height: 350px;
   //border: 2px solid;
+}
+
+.contents_section .contents_container .contents .idx3 {
+  height: 400px;
+}
+
+.contents_section .contents_container .contents .idx4 {
+  height: 450px;
+}
+
+.contents_section .contents_container .contents .lst {
+  height: 200px;
 }
 
 .contents_section .contents_container .contents .contents_right_div {
@@ -103,7 +115,12 @@ main section > div {
 .contents_section .contents_container .contents .contents_right_div h3 {
   font-size: 13px;
   font-weight: 400;
-  line-height: 150%;
+  line-height: 170%;
+
+}
+
+.contents_section .contents_container .contents .contents_right_div .tag {
+  color: #004abf;
 }
 
 .fx {
