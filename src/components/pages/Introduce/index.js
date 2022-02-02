@@ -193,7 +193,7 @@ const IntroMiddle = () => {
 
                     <div className="fx contents_div">
                         <div className="skills_intro_div">
-                            <img src="/images/introduce/calender.png" alt="me img"/>
+                            <img src="/images/introduce/backend.png" alt="me img"/>
                             <div>
                                 <h3>Backend</h3>
                                 <p>Web & RestAPI</p>
@@ -203,7 +203,7 @@ const IntroMiddle = () => {
                         <div className="skills_contents_div">
                             <ul>
                                 <li>
-                                    <img src="/images/introduce/calender.png" alt="me img"/>
+                                    <img src="/images/introduce/nodejs.png" alt="me img"/>
                                     <div>
                                         <h2>
                                             NodeJS
@@ -225,7 +225,7 @@ const IntroMiddle = () => {
                                 </li>
 
                                 <li>
-                                    <img src="/images/introduce/calender.png" alt="me img"/>
+                                    <img src="/images/introduce/elasticsearch.png" alt="me img"/>
                                     <div>
                                         <h2>
                                             ElasticSearch
@@ -236,7 +236,7 @@ const IntroMiddle = () => {
                                 </li>
 
                                 <li>
-                                    <img src="/images/introduce/calender.png" alt="me img"/>
+                                    <img src="/images/introduce/nifi.png" alt="me img"/>
                                     <div>
                                         <h2>
                                             Nifi, Logstash
@@ -247,7 +247,7 @@ const IntroMiddle = () => {
                                 </li>
 
                                 <li>
-                                    <img src="/images/introduce/calender.png" alt="me img"/>
+                                    <img src="/images/introduce/java.png" alt="me img"/>
                                     <div>
                                         <h2>
                                             Java
@@ -258,7 +258,7 @@ const IntroMiddle = () => {
                                 </li>
 
                                 <li>
-                                    <img src="/images/introduce/calender.png" alt="me img"/>
+                                    <img src="/images/introduce/spring.png" alt="me img"/>
                                     <div>
                                         <h2>
                                             Spring
@@ -302,7 +302,7 @@ const IntroMiddle = () => {
                                 </li>
 
                                 <li>
-                                    <img src="/images/introduce/calender.png" alt="me img"/>
+                                    <img src="/images/introduce/redis.png" alt="me img"/>
                                     <div>
                                         <h2>
                                             Redis
@@ -324,7 +324,7 @@ const IntroMiddle = () => {
                                 </li>
 
                                 <li>
-                                    <img src="/images/introduce/calender.png" alt="me img"/>
+                                    <img src="/images/introduce/junit.png" alt="me img"/>
                                     <div>
                                         <h2>
                                             JUnit, JMeter
@@ -341,7 +341,7 @@ const IntroMiddle = () => {
 
                     <div className="fx contents_div">
                         <div className="skills_intro_div">
-                            <img src="/images/introduce/calender.png" alt="me img"/>
+                            <img src="/images/introduce/server.png" alt="me img"/>
                             <div>
                                 <h3>Server</h3>
                                 <p>구축 & 배포</p>
@@ -351,7 +351,7 @@ const IntroMiddle = () => {
                         <div className="skills_contents_div">
                             <ul>
                                 <li>
-                                    <img src="/images/introduce/calender.png" alt="me img"/>
+                                    <img src="/images/introduce/linux.png" alt="me img"/>
                                     <div>
                                         <h2>
                                             Linux
@@ -362,7 +362,7 @@ const IntroMiddle = () => {
                                 </li>
 
                                 <li>
-                                    <img src="/images/introduce/calender.png" alt="me img"/>
+                                    <img src="/images/introduce/git.png" alt="me img"/>
                                     <div>
                                         <h2>
                                             Git, Bitbucket
@@ -374,7 +374,7 @@ const IntroMiddle = () => {
 
 
                                 <li>
-                                    <img src="/images/introduce/calender.png" alt="me img"/>
+                                    <img src="/images/introduce/aws.png" alt="me img"/>
                                     <div>
                                         <h2>
                                             AWS

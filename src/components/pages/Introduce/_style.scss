@@ -150,11 +150,20 @@ main section > div {
 
 .skills_section .contents_div .skills_contents_div .skills_round_text {
   float: right;
+  width: 30px;
+  height: 30px;
+  border-radius: 3rem;
+  border: 2px solid rgba(0, 0, 0, .1);
+  font-weight: 600;
+  padding: 2px;
+  background-color: cornflowerblue;
 }
 
 .skills_section .contents_div .skills_contents_div .skills_round_text p {
-  color: black;
-  font-weight: 400;
+  margin-top: 2px;
+  margin-left: 1px;
+  color: white;
+  font-weight: 700;
 }
 
 .skills_section .contents_div .skills_contents_div ul li {
