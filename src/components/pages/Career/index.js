@@ -1,7 +1,17 @@
-import React from "react";
+import React, {useState} from "react";
 import PageNav from "../../atoms/PageNav";
+import FoldArrow from "../../atoms/FoldArrow";
 
 const Career = () => {
+
+    const [isToggled, setIsToggled] = useState(false);
+
+    const setToggleBox = (e) => {
+        console.log("@@@@@@!!")
+        e.preventDefault();
+        setIsToggled(!isToggled);
+    }
+
     return (<>
         <main className="main" style={{clear : "both"}}>
             <PageNav text="커리어" href="/career"/>
@@ -29,6 +39,7 @@ const Career = () => {
                                 </h3>
                             </div>
 
+                            <div className={isToggled ? "left_fold_div": "fold left_fold_div"}>
                             <div className="idx1 history">
                                 <h3>
                                     2020.01
@@ -57,6 +68,8 @@ const Career = () => {
                                 <h3>
                                     2022.01
                                 </h3>
+                            </div>
+
                             </div>
                         </div>
 
@@ -90,9 +103,14 @@ const Career = () => {
 
 
                                 </div>
+                                <div className={isToggled ? "tog toggleBox" : "foldBox"} onClick={setToggleBox}>
+                                    <FoldArrow chk={isToggled}/>
+                                </div>
                             </div>
 
 
+
+                    <div className={isToggled ? "right_fold_div": "fold right_fold_div"}>
                             <div className="idx1 right_inner_div">
                                 <div className="title_div"
                                      onClick={() => window.open("http://chatbot.yuhs.ac", "_blank")}>
@@ -217,6 +235,7 @@ const Career = () => {
 
                                 </div>
                             </div>
+                    </div>
 
                         </div>
                     </div>

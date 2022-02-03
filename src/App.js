@@ -6,6 +6,7 @@ import IntroTemplates from 'components/pfo/templates/introduce';
 import HomeTemplates from 'components/pfo/templates/home'
 import ProjectMiddle from 'components/pfo/templates/project';
 import CareerTemplates from 'components/pfo/templates/career';
+import ProjectNice from 'components/pfo/templates/project/nice';
 import './App.css';
 
 function App() {
@@ -16,8 +17,12 @@ function App() {
 
             <Route exact path="/" component={HomeTemplates} />
             <Route path="/introduce" component={IntroTemplates} />
-            <Route path="/project" component={ProjectMiddle} />
+
+            <Route exact path="/project" component={ProjectMiddle} />
+            <Route path="/project/nice" component={ProjectNice} />
+
             <Route path="/career" component={CareerTemplates} />
+
 
         </Switch>
       </Router>

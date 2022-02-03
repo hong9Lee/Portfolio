@@ -95,7 +95,7 @@ const ProjectMiddle = () => {
                                     </ul>
                                 </div>
                                 <div className="links">
-                                    <a href="http://chatbot.yuhs.ac/" target="_blank" rel="noreferrer">더보기</a>
+                                    <a href="/project/nice">더보기</a>
                                 </div>
                             </li>
 
