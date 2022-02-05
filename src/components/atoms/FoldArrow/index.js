@@ -6,12 +6,16 @@ import PropTypes from "prop-types";
  */
 const FoldArrow = (prop) => {
     const param = prop;
-    console.log(param.chk + "@@@@@@@@@@@@@@@@")
+
+    const more = <label htmlFor="collapsible" className="lbl-toggle"/>;
+    const short = <label htmlFor="collapsible" className="lbl-toggle-short"/>;
 
     return(
 
             <div>
-                {param.chk ? '▲' : "(주)아이브릭스 커리어 ▼"}
+                {param.chk ?
+                    short :
+                    more}
             </div>
 
     );

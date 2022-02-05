@@ -5,21 +5,30 @@ const PageNav = (prop) => {
 
     return (<>
         <section>
-                <div className="pmNav">
-                    <a href='/' className="homeHref">
-                        {`
+            <div className="pmNav">
+                <a href='/' className="homeHref">
+                    {`
                             Portfolio Main
                         `}
-                    </a>
+                </a>
 
+                <span className="arr"/>
+
+                <a href={data.href} className={(data.detail ? "" : "bd ") + "projectHref"}>
+                    {data.text}
+                </a>
+
+                {data.detail ?
+                <>
                     <span className="arr"/>
-
-                    <a href={data.href} className="projectHref">
-                        {data.text}
+                    <a href={data.d_href} className="bd projectHref">
+                        {data.detail}
                     </a>
-                </div>
+                </> : ""}
+
+            </div>
         </section>
-        </>);
+    </>);
 };
 
 PageNav.propTypes = {};

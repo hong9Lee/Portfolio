@@ -12,11 +12,11 @@ main section > div {
 
 .career_title_section h2 {
   font-size: 28px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .career_title_section h3 {
-  font-weight: 300;
+  font-weight: 400;
 
 }
 
@@ -132,24 +132,33 @@ main section > div {
 }
 
 .foldBox {
+  margin-left: 30px;
   width: 400px;
-
   font-size: 20px;
   text-align: center;
+  margin-top: 30px;
 }
 
 .tog.toggleBox {
-  float: right;
+  //float: right;
+  margin-top: 30px;
 }
 
-.ss {
-  transform: rotate(180deg);
-  font-size: 0.8rem;
-  display: inline-block;
-  vertical-align: middle;
-  margin-left: 0.2rem;
+.right_fold_div {
   overflow: hidden;
+  transition: all 0.25s ease-out;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 999px) {

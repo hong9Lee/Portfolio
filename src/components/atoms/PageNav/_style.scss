@@ -29,10 +29,13 @@ section {
 
 .projectHref {
   color: gray;
-  margin: 0 0 0 17px;
-  font-weight: 700;
+  margin: 0 10px 0 17px;
+
 }
 
+.bd {
+  font-weight: 700;
+}
 
 @media (max-width: 999px) {
 
