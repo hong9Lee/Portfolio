@@ -82,6 +82,18 @@ const IntroMiddle = () => {
                                             <p>한국산업기술대학교 소프트웨어공학과</p>
                                         </div>
                                     </div>
+
+                                    <div className="int name">
+                                        <div className="img_div">
+                                            <img src="/images/introduce/email.png" alt="me img"/>
+                                        </div>
+
+                                        <div className="contents">
+                                            <h2>이메일</h2>
+                                            <p>hglee.dev@gmail.com</p>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
                         </li>

@@ -103,7 +103,7 @@ const Career = () => {
 
 
                                 </div>
-                                <div className={isToggled ? "tog toggleBox" : "foldBox"} onClick={setToggleBox}>
+                                <div className={isToggled ? "tog foldBox" : "foldBox"} onClick={setToggleBox}>
                                     <FoldArrow chk={isToggled}/>
                                 </div>
                             </div>
@@ -176,12 +176,12 @@ const Career = () => {
                                     <br/>
                                     <li>개발자 2인으로 PM, 작가(분석) 포함 총 4명 투입됨.</li>
                                     <li>고객사의 소극적인 태도로 가장 힘들었던 사업임.</li>
-                                    <li> ~~ 설계</li>
+                                    <li>작은 규모이지만 OOP를 활용한 솔루션 설계를 경험해 볼 수 있었음.</li>
                                     <li>평가자료를 만들기 위해 원천DB의 기업 재무재표 분석이 필요했음.</li>
                                          <h3>&nbsp;&nbsp;&nbsp;&nbsp; {`->`} &nbsp;
-                                             때문에 NodeJS를 이용해 원천DB를 엑셀로 출력하는 API 서버를 구축함.</h3>
+                                             NodeJS를 이용해 원천DB를 엑셀로 출력하는 API 서버를 구축함.</h3>
                                     <li>나이스 평가정보의 원천DB를 Logstash를 이용해 수집, 색인함. (약 1억3천만 건)</li>
-
+                                    <li>Jar로 패키징하여 배포하였음.</li>
 
                                     <br/>
                                     <br/>

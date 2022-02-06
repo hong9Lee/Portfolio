@@ -8,12 +8,10 @@ const PfoFooter = () => {
     return(
         <footer style={{clear : "both"}}>
             <div className="footer_container">
-                FOOTER1
+                <p>CONTACT</p>
+                <span>hglee.dev@gmail.com</span>
             </div>
 
-            <div>
-                FOOTER2
-            </div>
         </footer>
 
     );
