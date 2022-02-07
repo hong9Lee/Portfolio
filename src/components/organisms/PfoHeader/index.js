@@ -61,11 +61,11 @@ const PpoHeader = () => {
 
 
 
-
+                {/*
                 <div className="_toast_div" style={{display : isActive ? 'none' : ''}}>
                     {msg ? <ToastMessage title={msg.title} contents={msg.contents}/> : ''}
                 </div>
-
+                */}
             </div>
 
 

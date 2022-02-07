@@ -63,8 +63,7 @@ const ProjectMiddle = () => {
                             <div className="contents">
                                 <ul>
                                     <li>NodeJS, Nifi, ElasticSearch, Oracle</li>
-                                    <li>발주지원시스템 검색 시스템 개발 및 배포 (파견근무)</li>
-                                    <li>조달청 내부 시스템으로 링크 없음</li>
+                                    <li>발주 지원 검색 시스템 개발 및 배포 (파견근무)</li>
                                 </ul>
                             </div>
 
@@ -167,7 +166,9 @@ const ProjectMiddle = () => {
                     <ul>
                         <li>
                             <div className="pe_name">
-                                <img src="/images/project/jcop.png" alt="제주화장품 로고"/>
+                               {/*
+                               <img src="/images/project/jcop.png" alt="제주화장품 로고"/>
+                               */}
                                 <p className="company_nm">{`
                             honggyu's
                         `} Portfolio 홈페이지</p>
@@ -185,7 +186,9 @@ const ProjectMiddle = () => {
 
                         <li>
                             <div className="pe_name">
+                                {/*
                                 <img src="/images/project/jcop.png" alt="제주화장품 로고"/>
+                                */}
                                 <p className="company_nm">쇼핑몰 admin 홈페이지</p>
                                 <div>2021.11 ~ </div>
                             </div>
@@ -202,7 +205,9 @@ const ProjectMiddle = () => {
 
                         <li>
                             <div className="pe_name">
+                                {/*
                                 <img src="/images/project/jcop.png" alt="제주화장품 로고"/>
+                                */}
                                 <p className="company_nm">알고리즘 스터디</p>
                             </div>
 

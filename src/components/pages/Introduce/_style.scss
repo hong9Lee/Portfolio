@@ -44,6 +44,7 @@ main section > div {
 .detail_section .intro_box .intro {
   display: flex;
   width: 100%;
+  justify-content: center;
 }
 
 .detail_section .intro_box .intro .intro_img{
@@ -59,7 +60,7 @@ main section > div {
 .detail_section .intro_box .intro .box_list {
   flex-flow: row wrap;
   //width: 100%;
-  width: 700px;
+  //width: 700px;
   display: flex;
   height: 350px;
 }
@@ -87,7 +88,7 @@ main section > div {
 }
 
 .int {
-  width: 50%;
+  width: 33.3%;
   display: flex;
 }
 
@@ -170,6 +171,7 @@ main section > div {
 .skills_section .contents_div .skills_contents_div ul li {
   //width: 33.3%;
   width: 27%;
+
   display: inline-block;
   //margin: 0 0 28px 0;
   margin: 19px;
@@ -194,6 +196,16 @@ main section > div {
   color: #004abf;
 }
 
+.skills_section .contents_div .skills_contents_div .sn.skills_round_box li {
+  width: 40%;
+  display: inline-block;
+  margin: 19px;
+  height: 48px;
+}
+
+.sn {
+  width: 70%;
+}
 
 @media (max-width: 999px) {
   /* 레이 아웃 */
@@ -205,5 +217,28 @@ main section > div {
     margin: 20px auto;
   }
 
+  .fx {
+    flex-wrap: wrap;
+  }
+
+  .skills_section .contents_div .skills_contents_div ul li {
+    width: 40%;
+  }
+
+  .skills_section .contents_div .skills_contents_div .skills_round_box {
+    width: 66%;
+  }
+
+  .detail_section .intro_box .intro {
+    justify-content: start;
+  }
+
+  .int {
+    width: 44%;
+  }
+
+  .skills_section .contents_div .skills_intro_div {
+    //justify-content: center;
+  }
 }
 

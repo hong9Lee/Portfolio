@@ -22,15 +22,18 @@ const IntroMiddle = () => {
                         <li>
                             <div className="intro">
 
+                                {/*
                                 <div className="intro_img">
                                     <img src="/images/introduce/honggyulee.jpeg" alt="intro img"/>
                                 </div>
+                                */}
 
                                 <div className="box_list">
                                     <div className="int name">
                                         <div className="img_div">
                                             <img src="/images/introduce/me.png" alt="me img"/>
                                         </div>
+
 
                                         <div className="contents">
                                             <h2>이름</h2>
@@ -51,24 +54,23 @@ const IntroMiddle = () => {
 
                                     <div className="int name">
                                         <div className="img_div">
-                                            <img src="/images/introduce/location.png" alt="me img"/>
-                                        </div>
-
-                                        <div className="contents">
-                                            <h2>주소</h2>
-                                            <p>경기도 군포시</p>
-                                        </div>
-                                    </div>
-
-
-                                    <div className="int name">
-                                        <div className="img_div">
                                             <img src="/images/introduce/phone.png" alt="me img"/>
                                         </div>
 
                                         <div className="contents">
                                             <h2>연락처</h2>
                                             <p>010-2749-5136</p>
+                                        </div>
+                                    </div>
+
+                                    <div className="int name">
+                                        <div className="img_div">
+                                            <img src="/images/introduce/location.png" alt="me img"/>
+                                        </div>
+
+                                        <div className="contents">
+                                            <h2>주소</h2>
+                                            <p>경기도 군포시</p>
                                         </div>
                                     </div>
 
@@ -219,7 +221,7 @@ const IntroMiddle = () => {
                                     </div>
 
                                     <li>
-                                        <img src="/images/introduce/nodejs.png" alt="me img"/>
+                                        <img src="/images/introduce/nodejs.svg" alt="me img"/>
                                         <div>
                                             <h2>
                                                 NodeJS
@@ -229,7 +231,7 @@ const IntroMiddle = () => {
                                     </li>
 
                                     <li>
-                                        <img src="/images/introduce/calender.png" alt="me img"/>
+                                        <img src="/images/introduce/express.png" alt="me img"/>
                                         <div>
                                             <h2>
                                                 Express
@@ -259,7 +261,7 @@ const IntroMiddle = () => {
                                     </li>
 
                                     <li>
-                                        <img src="/images/introduce/calender.png" alt="me img"/>
+                                        <img src="/images/introduce/db.png" alt="me img"/>
                                         <div>
                                             <h2>
                                                 MySql, Oracle
@@ -269,10 +271,10 @@ const IntroMiddle = () => {
                                     </li>
 
                                     <li>
-                                        <img src="/images/introduce/calender.png" alt="me img"/>
+                                        <img src="/images/introduce/python.png" alt="me img"/>
                                         <div>
                                             <h2>
-                                                Ruby, Python
+                                                Python, Ruby
                                             </h2>
                                             <span>데이터 전처리에 사용</span>
                                         </div>
@@ -311,7 +313,7 @@ const IntroMiddle = () => {
 
                                 </div>
                                 <li>
-                                    <img src="/images/introduce/calender.png" alt="me img"/>
+                                    <img src="/images/introduce/jpa.png" alt="me img"/>
                                     <div>
                                         <h2>
                                             JPA, h2
@@ -337,7 +339,7 @@ const IntroMiddle = () => {
 
                         <div className="skills_contents_div">
                             <ul>
-                                <div className="skills_round_box">
+                                <div className="sn skills_round_box">
                                     <div className="skills_round_text">
                                         <p>실무</p>
                                     </div>
@@ -362,6 +364,7 @@ const IntroMiddle = () => {
                                         </div>
                                     </li>
 
+                                    {/*
                                     <li>
                                         <img src="/images/introduce/calender.png" alt="me img"/>
                                         <div>
@@ -371,6 +374,7 @@ const IntroMiddle = () => {
                                             <span>-</span>
                                         </div>
                                     </li>
+                                    */}
                                 </div>
 
 
@@ -385,6 +389,7 @@ const IntroMiddle = () => {
                                     </div>
                                 </li>
 
+                                {/*
                                 <li>
                                     <img src="/images/introduce/calender.png" alt="me img"/>
                                     <div>
@@ -395,6 +400,7 @@ const IntroMiddle = () => {
                                         <span>-</span>
                                     </div>
                                 </li>
+                                */}
 
                             </ul>
                         </div>

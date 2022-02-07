@@ -20,7 +20,7 @@ main section > div > ul {
 }
 
 .company_nm {
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .detail_section .project-box {
@@ -213,7 +213,22 @@ main section > div > ul {
 }
 
 @media (max-width: 999px) {
+  .detail_section .project-box > li {
+    //flex-direction: column;
+    display: block;
+    margin-bottom: 40px;
+  }
 
+  .detail_section .project-box .contents {
+    margin: 10px 60px 10px 0;
+  }
 
+  .pe_section > div > ul {
+    display: block;
+  }
+
+  .pe_section > div > ul > li {
+    margin-top: 30px;
+  }
 }
 
