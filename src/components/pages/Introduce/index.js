@@ -226,7 +226,7 @@ const IntroMiddle = () => {
                                             <h2>
                                                 NodeJS
                                             </h2>
-                                            <span>서버 개발 언어로 사용</span>
+                                            <span>개발 언어로 사용</span>
                                         </div>
                                     </li>
 
@@ -286,7 +286,7 @@ const IntroMiddle = () => {
                                             <h2>
                                                 Java, Spring
                                             </h2>
-                                            <span>-</span>
+                                            <span>개발 언어로 사용</span>
                                         </div>
                                     </li>
 
