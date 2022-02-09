@@ -15,7 +15,7 @@ function App() {
       <Router>
         <Switch>
 
-            <Route exact path="/" component={HomeTemplates} />
+            <Route exact path="/" component={IntroTemplates} />
             <Route path="/introduce" component={IntroTemplates} />
 
             <Route exact path="/project" component={ProjectMiddle} />
