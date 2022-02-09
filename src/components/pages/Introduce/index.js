@@ -319,7 +319,7 @@ const IntroMiddle = () => {
                                             JPA, h2
                                             <span className="toy">토이</span>
                                         </h2>
-                                        <span>-</span>
+                                        <span>ORM에 대한 학습</span>
                                     </div>
                                 </li>
 
