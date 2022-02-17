@@ -344,7 +344,7 @@ const IntroMiddle = () => {
                                         <p>실무</p>
                                     </div>
 
-                                    <li>
+                                    <li className="linux">
                                         <img src="/images/introduce/linux.png" alt="me img"/>
                                         <div>
                                             <h2>
@@ -354,7 +354,7 @@ const IntroMiddle = () => {
                                         </div>
                                     </li>
 
-                                    <li>
+                                    <li className="git">
                                         <img src="/images/introduce/git.png" alt="me img"/>
                                         <div>
                                             <h2>
@@ -363,7 +363,6 @@ const IntroMiddle = () => {
                                             <span>branch를 활용한 형상관리</span>
                                         </div>
                                     </li>
-
                                     {/*
                                     <li>
                                         <img src="/images/introduce/calender.png" alt="me img"/>

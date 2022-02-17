@@ -8,11 +8,16 @@ main {
   position: relative;
   //left: 0;
   //top: 80px;
-  width: 1400px;
-  margin: 20px auto;
+  //width: 1400px;
+  width: 100%;
+  margin: 20px 0 0 60px;
   //padding-top: 81px;
 
   //border: solid blue;
+}
+
+main > section {
+  //width: 70%;
 }
 
 main > div {
@@ -40,7 +45,7 @@ main > div {
   /* 레이 아웃 */
   main {
     //padding-top: 81px;
-    margin: 20px auto;
+    margin: 20px 0 0 60px;
   }
   main section{
     margin: 20px auto;

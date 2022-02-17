@@ -1,21 +1,24 @@
 main {
   min-height: calc(100vh - 217px);
-  position: relative;
-  //left: 0;
-  //top: 80px;
-  width: 1400px;
-  margin: 20px auto;
-  //padding-top: 81px;
-
-  //border: solid blue;
+//  position: relative;
+//  //left: 0;
+//  //top: 80px;
+//  //width: 1400px;
+//
+//  width: 100%;
+//  margin: 20px auto;
+//  //padding-top: 81px;
+//
+//  //border: solid blue;
+  width: 90%;
 }
 
 main section {
-  width: 100%;
+  //width: 100%;
 }
 
 main section > div {
-  width: 1200px;
+  //width: 1200px;
   margin: 60px auto;
   position: relative;
   box-sizing: border-box;
@@ -182,6 +185,7 @@ main section > div {
 
   .contents_section .contents_container .contents .contents_left_div {
     width: 12%;
+    min-width: 110px;
   }
 
 }

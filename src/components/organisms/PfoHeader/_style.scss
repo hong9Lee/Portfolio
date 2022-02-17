@@ -11,7 +11,8 @@ header {
 }
 
 header > div {
-  width: 1400px;
+  //width: 1400px;
+  width: 88%;
   margin: 0 auto;
   height: 81px;
   position: relative;
@@ -90,19 +91,28 @@ header button {
   /* -- 공통 컴포넌트 시작 -- */
 
   header {
-    //position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    background: #fff;
+    //left: 0;
+    //top: 0;
+    //width: 100%;
+    //background: #fff;
+    //z-index: 1;
 
-    //border: solid;
-    z-index: 1;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 30;
+    width: 100%;
+    height: 81px;
+    /* background: #fff; */
+    border-style: solid;
+    border-color: #FFF;
+    border-width: 0 0 1px 0;
   }
 
   /* 헤더 */
   header > div {
-    width: 100%;
+    width: 85%;
     border-bottom: 1px solid #eee;
     height: 81px;
   }
@@ -173,12 +183,22 @@ header button {
   }
 
   header .lnb.collapse + .overlay {
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    right: 0;
-    background: #333333;
-    opacity: 0.5;
+    //position: absolute;
+    //width: 100%;
+    //height: 100vh;
+    //right: 0;
+    //background: #333333;
+    //opacity: 0.5;
+
+    //position: absolute;
+    //top: 50px;
+    //left: 0;
+    //z-index: 500;
+    //margin: 0 auto;
+    //width: 100%;
+    //height: auto;
+    //border-top: 1px solid #fff;
+
   }
 
 
