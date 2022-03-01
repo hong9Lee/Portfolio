@@ -219,7 +219,7 @@ const IntroMiddle = () => {
                                     <div className="skills_round_text">
                                         <p>실무</p>
                                     </div>
-
+                                    <div>
                                     <li>
                                         <img src="/images/introduce/nodejs.svg" alt="me img"/>
                                         <div>
@@ -239,7 +239,9 @@ const IntroMiddle = () => {
                                             <span>NodeJS, React 서버로 사용</span>
                                         </div>
                                     </li>
+                                    </div>
 
+                                    <div>
                                     <li>
                                         <img src="/images/introduce/elasticsearch.png" alt="me img"/>
                                         <div>
@@ -259,6 +261,31 @@ const IntroMiddle = () => {
                                             <span>데이터 색인에 사용</span>
                                         </div>
                                     </li>
+                                    </div>
+
+
+
+                                    {/*
+                                    <li>
+                                        <img src="/images/introduce/python.png" alt="me img"/>
+                                        <div>
+                                            <h2>
+                                                Python, Ruby
+                                            </h2>
+                                            <span>데이터 전처리에 사용</span>
+                                        </div>
+                                    </li>
+                                    */}
+
+                                    <li>
+                                        <img src="/images/introduce/java.png" alt="me img"/>
+                                        <div>
+                                            <h2>
+                                                Java, SpringBoot
+                                            </h2>
+                                            <span>개발 언어로 사용</span>
+                                        </div>
+                                    </li>
 
                                     <li>
                                         <img src="/images/introduce/db.png" alt="me img"/>
@@ -271,27 +298,6 @@ const IntroMiddle = () => {
                                     </li>
 
                                     <li>
-                                        <img src="/images/introduce/python.png" alt="me img"/>
-                                        <div>
-                                            <h2>
-                                                Python, Ruby
-                                            </h2>
-                                            <span>데이터 전처리에 사용</span>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <img src="/images/introduce/java.png" alt="me img"/>
-                                        <div>
-                                            <h2>
-                                                Java, Spring
-                                            </h2>
-                                            <span>개발 언어로 사용</span>
-                                        </div>
-                                    </li>
-
-
-                                    <li>
                                         <img src="/images/introduce/junit.png" alt="me img"/>
                                         <div>
                                             <h2>
@@ -301,6 +307,7 @@ const IntroMiddle = () => {
                                         </div>
                                     </li>
 
+                                    {/*
                                     <li>
                                         <img src="/images/introduce/redis.png" alt="me img"/>
                                         <div>
@@ -310,13 +317,13 @@ const IntroMiddle = () => {
                                             <span>세션 및 캐시 저장에 사용</span>
                                         </div>
                                     </li>
-
+                                    */}
                                 </div>
                                 <li>
                                     <img src="/images/introduce/jpa.png" alt="me img"/>
                                     <div>
                                         <h2>
-                                            JPA, h2
+                                            Spring Data JPA
                                             <span className="toy">토이</span>
                                         </h2>
                                         <span>ORM에 대한 학습</span>

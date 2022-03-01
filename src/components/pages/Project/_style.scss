@@ -27,7 +27,7 @@ main section > div > ul {
   //margin: 0 0 0 100px;
 }
 
-.detail_section .project-box > li{
+.detail_section .project-box > li {
   display: flex;
   align-items: center;
   margin: 28px 0;
@@ -37,7 +37,7 @@ main section > div > ul {
   display: flex;
 }
 
-.detail_section .project-box .intro .intro_img{
+.detail_section .project-box .intro .intro_img {
   margin: 0 28px 0 0;
 }
 
@@ -65,19 +65,27 @@ main section > div > ul {
   margin: 11px 0 0 5px;
 }
 
-.detail_section .project-box .intro .intro_img img{
+.detail_section .project-box .intro .intro_img img {
   width: 48px;
 }
 
-.detail_section .project-box .intro .intro_contents{
+.detail_section .project-box .intro .intro_contents {
   margin: 0 40px 0 0;
   min-width: 200px;
+}
+
+.detail_section .project-box {
+  margin-left: 100px;
 }
 
 .detail_section .project-box .contents {
   font-size: 14px;
   margin: 0 60px 0 0;
   min-width: 420px;
+}
+
+.detail_section .project-box .links {
+  margin-right: 10px;
 }
 
 .detail_section .project-box .links a:hover {
@@ -92,7 +100,7 @@ main section > div > ul {
   //width: 81px;
   padding: 0 24px;
   line-height: 36px;
-  border: 1px solid hsla(0,0%,59.2%,.24);
+  border: 1px solid hsla(0, 0%, 59.2%, .24);
   background-color: #fff;
 
 }
@@ -125,14 +133,10 @@ main section > div > ul {
 }
 
 
-
-
-
 /** nice */
 .u_line {
   border-bottom: 1px solid #ebebeb;
 }
-
 
 
 .outline p {
@@ -212,7 +216,46 @@ main section > div > ul {
   font-weight: 600;
 }
 
-@media (max-width: 999px) {
+/* 연세 세브란스 */
+.yonsei_u_line {
+  display: flex;
+  margin-left: 150px;
+  width: 100%;
+}
+
+.yonsei_contents {
+  margin-left: 100px;
+}
+
+.left_project_img {
+  height: 650px;
+
+}
+
+.yonsei_u_line .yonsei_contents {
+  //font-family: "NotoSans", sans-serif;
+  //font-family: ".SF NS";
+  font-family: "Avenir Next Condensed"
+}
+
+
+.yonsei_u_line .yonsei_contents p {
+  font-size: 14px;
+}
+
+
+.yonsei_u_line .yonsei_contents h2 {
+  font-size: 17px;
+}
+
+
+.yonsei_u_line .yonsei_contents a {
+  color: #32488a;
+  font-weight: 700;
+}
+
+
+@media (max-width: 1300px) {
   .detail_section .project-box > li {
     //flex-direction: column;
     display: block;
@@ -229,6 +272,10 @@ main section > div > ul {
 
   .pe_section > div > ul > li {
     margin-top: 30px;
+  }
+
+  .detail_section .project-box {
+    margin-left: 0px;
   }
 }
 

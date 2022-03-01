@@ -140,6 +140,11 @@ const ProjectMiddle = () => {
                                     <li>React 기반의 상담 챗봇 개발 및 배포</li>
                                 </ul>
                             </div>
+
+                            <div className="links">
+                                <a href="/project/yonsei">더보기</a>
+                            </div>
+
                             <div className="links">
                                 <a href="http://chatbot.yuhs.ac/" target="_blank" rel="noreferrer">링크</a>
                             </div>
@@ -195,9 +200,9 @@ const ProjectMiddle = () => {
 
                             <div className="contents">
                                 <ul>
-                                    <li>상품등록 및 관리, Spring Security를 이용한 로그인 등 <br/>
-                                        다양한 기능을 학습 해보고 있습니다</li>
-                                    <li>HTML/CSS, JAVA, SpringBoot, JPA, MySQL, h2</li>
+                                    <li>SpringBoot, Spring Data JPA를 활용하여 다양한 기능을<br/>
+                                        학습 해보고 있습니다</li>
+                                    <li>HTML/CSS, JAVA, SpringBoot, Spring Data JPA, MySQL, h2</li>
                                 </ul>
                             </div>
 
