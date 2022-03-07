@@ -8,6 +8,7 @@ import ProjectMiddle from 'components/pfo/templates/project';
 import CareerTemplates from 'components/pfo/templates/career';
 import ProjectNice from 'components/pfo/templates/project/nice';
 import ProjectYonsei from 'components/pfo/templates/project/yonsei';
+import ProjectIcs from 'components/pfo/templates/project/ics';
 
 import './App.css';
 
@@ -23,6 +24,7 @@ function App() {
             <Route exact path="/project" component={ProjectMiddle} />
             <Route path="/project/nice" component={ProjectNice} />
             <Route path="/project/yonsei" component={ProjectYonsei} />
+            <Route path="/project/ics" component={ProjectIcs} />
 
 
             <Route path="/career" component={CareerTemplates} />

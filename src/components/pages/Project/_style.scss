@@ -120,7 +120,8 @@ main section > div > ul {
 }
 
 .pe_section > div > ul > li {
-  width: 33.3%;
+  //width: 25%;
+  margin: 0 80px;
 }
 
 .pe_name {
@@ -151,7 +152,7 @@ main section > div > ul {
 
 .outline .outline_1 {
   margin-top: 40px;
-  width: 1200px;
+  width: 800px;
   height: 400px;
   margin-bottom: 40px;
 }
@@ -192,18 +193,25 @@ main section > div > ul {
 }
 
 .opn_jmeter {
-  height: 600px;
+  height: 500px;
+
   margin-bottom: 40px;
 }
 
 .scr_1 {
-  width: 800px;
-  height: 200px;
+  width: 600px;
+  height: 150px;
 }
 
 .scr_2 {
-  width: 800px;
+  width: 600px;
+  height: 150px;
 }
+
+.outline h2 {
+  font-family: "NotoSans", sans-serif;
+}
+
 
 .u_line img {
   //margin-top: 20px;

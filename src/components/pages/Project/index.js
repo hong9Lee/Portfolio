@@ -116,6 +116,10 @@ const ProjectMiddle = () => {
                                     <li>React 기반의 민원 상담 챗봇 개발 및 배포 (파견근무)</li>
                                 </ul>
                             </div>
+
+                            <div className="links">
+                                <a href="/project/ics">더보기</a>
+                            </div>
                             <div className="links">
                                 <a href="https://chatbot.seo.incheon.kr/" target="_blank" rel="noreferrer">링크</a>
                             </div>
@@ -182,8 +186,14 @@ const ProjectMiddle = () => {
 
                             <div className="contents">
                                 <ul>
-                                    <li>HTML/CSS, React, Redux</li>
+                                    <li>HTML/CSS, React, AWS</li>
+                                    <li>프트폴리오 페이지 개발</li>
                                 </ul>
+
+                            </div>
+                            <br/>
+                            <div className="links">
+                                <p><a href="https://github.com/hong9Lee/portfolio"  target="_blank" rel="noreferrer">https://github.com/hong9Lee/portfolio</a></p>
                             </div>
 
                         </li>
@@ -194,16 +204,19 @@ const ProjectMiddle = () => {
                                 {/*
                                 <img src="/images/project/jcop.png" alt="제주화장품 로고"/>
                                 */}
-                                <p className="company_nm">쇼핑몰 admin 홈페이지</p>
-                                <div>2021.11 ~ </div>
+                                <p className="company_nm">JPA 스터디</p>
+                                <div>2021.12 ~ </div>
                             </div>
 
                             <div className="contents">
                                 <ul>
-                                    <li>SpringBoot, Spring Data JPA를 활용하여 다양한 기능을<br/>
-                                        학습 해보고 있습니다</li>
-                                    <li>HTML/CSS, JAVA, SpringBoot, Spring Data JPA, MySQL, h2</li>
+                                    <li>JPA를 활용하여 다양한 기능을 학습 해보고 있습니다</li>
+                                    <li>JAVA, SpringBoot, Spring Data JPA, MySQL, h2</li>
                                 </ul>
+                            </div>
+                            <br/>
+                            <div className="links">
+                                <p><a href="https://github.com/hong9Lee/spring_data_jpa_test"  target="_blank" rel="noreferrer">https://github.com/hong9Lee/spring_data_jpa_test</a></p>
                             </div>
 
                         </li>
