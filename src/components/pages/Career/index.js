@@ -124,7 +124,6 @@ const Career = () => {
                                 <div className="contents_div">
                                     <br/>
                                     <br/>
-                                    <li>챗봇 React 공통 템플릿을 가지고 개발자 1인으로 투입됨.</li>
                                     <li>퍼블리싱부터 기능개발, API 서버 개발, 배포 까지 맡았음.</li>
                                     <li>Linux에 프로세스를 설치하고 전체 프로세스를 실행/중지하는 Batch Script를 작성함.</li>
                                     <li>고객 요구사항을 파악하는 회의부터 배포, 운영까지 사업의 전과정을 경험해 볼 수 있었음.</li>
@@ -145,18 +144,24 @@ const Career = () => {
                                 <div className="contents_div">
                                     <br/>
                                     <br/>
-                                    <li>개발자 2인으로 PM, PL, 시나리오 작가 포함 총 6명 투입됨.</li>
                                     <li>완성된 퍼블리싱을 적용, 기능개발, API 서버 개발, 수집 및 색인, 배포, 운영 까지 맡았음.</li>
-                                    <li>민원 데이터 수집 및 색인을 위해 Logstash를 사용하였음.</li>
+                                    <br/>
+
+
+                                    <li>API</li>
+                                    <h3>사용자 위치 동의를 받고, 현재 위치의 날씨를 알려주는 API를 개발함.</h3>
+                                    <h3>카카오 지도API 연동해 인천 서구의 무인민원발급기 위치를 출력하는 기능을 개발함.</h3>
+                                    <h3>공휴일 OpenAPI를 활용하여 서구청 휴무일에는 챗봇 응답메시지에 반영되도록 API를 개발함.</h3>
+                                    <br/>
+
+                                    <li>데이터 수집</li>
                                     <h3>&nbsp;&nbsp;&nbsp;&nbsp; {`->`} &nbsp;
-                                        Linux에 프로세스를 설치하고 전체 프로세스를 실행/중지하는 Batch Script를 작성함.</h3>
-                                    <h3>&nbsp;&nbsp;&nbsp;&nbsp; {`->`} &nbsp;
-                                        민원 데이터를 일정 주기마다 수집,색인하는 Batch 파일을 작성함.</h3>
-                                    <h3>&nbsp;&nbsp;&nbsp;&nbsp; {`->`} &nbsp;데이터 가공을 위해 Logstash에서 Ruby를 사용함.</h3>
-                                    <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                        Ruby - 코드를 읽을 수 있으며, 구글을 참고하여 약간의 수정작업
-                                        또는 작은 변경사항 추가를 할 수 있는 수준.</h3>
+                                        Logstash를 활용하여 민원 데이터를 일정 주기마다 수집, 가공, 색인하는 Batch 파일을 작성함.</h3>
+
+
+                                    <br/>
                                     <li>ElasticSearch의 데이터를 총 3대의 서버에 클러스터링 하여 구축 하였음.</li>
+                                    <br/>
                                 </div>
                             </div>
 
@@ -174,12 +179,11 @@ const Career = () => {
                                 <div className="contents_div">
                                     <br/>
                                     <br/>
-                                    <li>개발자 2인으로 PM, 작가(분석) 포함 총 4명 투입됨.</li>
-                                    <li>고객사의 소극적인 태도로 가장 힘들었던 사업임.</li>
                                     <li>작은 규모이지만 OOP를 활용한 솔루션 설계를 경험해 볼 수 있었음.</li>
                                     <li>평가자료를 만들기 위해 원천DB의 기업 재무재표 분석이 필요했음.</li>
                                          <h3>&nbsp;&nbsp;&nbsp;&nbsp; {`->`} &nbsp;
-                                             NodeJS를 이용해 원천DB를 엑셀로 출력하는 API 서버를 구축함.</h3>
+                                             분석에 필요한 데이터만 전처리하여 엑셀로 다운로드 가능한 API 서버를 구축하였음. (NodeJS, Express)</h3>
+                                    <li>수집한 테스트 데이터를 조회하여 의견생성 조건에 맞춰 전처리한 후 문장으로 만드는 메소드를 개발함.</li>
                                     <li>나이스 평가정보의 원천DB를 Logstash를 이용해 수집, 색인함. (약 1억3천만 건)</li>
                                     <li>Jar로 패키징하여 배포하였음.</li>
 
@@ -204,14 +208,16 @@ const Career = () => {
                                 <div className="contents_div">
                                     <br/>
                                     <br/>
-                                    <li>개발자 3인으로 PM, PL, 작가(분석) 포함 총 8명 투입됨.</li>
                                     <li>검색 파트는 단독 투입이며 조달청 원천DB 수집 및 색인, 검색 API 개발, 배포 까지 맡았음.</li>
-                                    <li>데이터 색인을 위해 Nifi를 사용함.</li>
-                                    <h3>&nbsp;&nbsp;&nbsp;&nbsp; {`->`} &nbsp;
-                                    데이터 가공을 위해 Python을 사용함.</h3>
-                                    <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                        Python - 코드를 읽을 수 있으며, 구글을 참고하여 약간의 수정작업
-                                        또는 작은 변경사항 추가를 할 수 있는 수준.</h3>
+                                    <li>API</li>
+                                    <h3>MVC패턴을 활용하여 검색 API 구조 설계.</h3>
+                                    <h3>검색 데이터의 정확도, 기간, 페이징 처리된 결과를 반환하는 API를 개발함.</h3>
+                                    <h3>사내 제품을 활용하여 문서의 유사도를 계산하고 ElasticSearch에 색인, 조회해 문서의 유사도를 반환하는 API를 개발함.</h3>
+                                    <h3>사내 제품을 활용하여 입력한 문장에서 주요 키워드를 추출해 반환하는 API를 개발함.</h3>
+
+                                    <br/>
+                                    <li>Nifi를 활용하여 원천DB의 데이터, 문서를 수집함.</li>
+
                                     <li>ElasticSearch의 데이터를 총 3대의 서버에 클러스터링 하여 구축 하였음.</li>
 
                                 </div>

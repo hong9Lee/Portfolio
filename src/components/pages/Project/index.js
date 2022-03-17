@@ -193,7 +193,7 @@ const ProjectMiddle = () => {
                             </div>
                             <br/>
                             <div className="links">
-                                <p><a href="https://github.com/hong9Lee/portfolio"  target="_blank" rel="noreferrer">https://github.com/hong9Lee/portfolio</a></p>
+                                <p><a href="https://github.com/hong9Lee/portfolio"  target="_blank" rel="noreferrer" className="color_Link">https://github.com/hong9Lee/portfolio</a></p>
                             </div>
 
                         </li>
@@ -204,19 +204,19 @@ const ProjectMiddle = () => {
                                 {/*
                                 <img src="/images/project/jcop.png" alt="제주화장품 로고"/>
                                 */}
-                                <p className="company_nm">JPA 스터디</p>
-                                <div>2021.12 ~ </div>
+                                <p className="company_nm">Community 게시판</p>
+                                <div>2022.02 ~ 03</div>
                             </div>
 
                             <div className="contents">
                                 <ul>
-                                    <li>JPA를 활용하여 다양한 기능을 학습 해보고 있습니다</li>
+                                    <li>Spring Data JPA를 활용하여 게시글, 댓글, 좋아요 백엔드 기능 구현</li>
                                     <li>JAVA, SpringBoot, Spring Data JPA, MySQL, h2</li>
                                 </ul>
                             </div>
                             <br/>
                             <div className="links">
-                                <p><a href="https://github.com/hong9Lee/spring_data_jpa_test"  target="_blank" rel="noreferrer">https://github.com/hong9Lee/spring_data_jpa_test</a></p>
+                                <p><a href="https://github.com/hong9Lee/community" target="_blank" rel="noreferrer" className="color_Link">https://github.com/hong9Lee/community</a></p>
                             </div>
 
                         </li>
