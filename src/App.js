@@ -9,6 +9,7 @@ import CareerTemplates from 'components/pfo/templates/career';
 import ProjectNice from 'components/pfo/templates/project/nice';
 import ProjectYonsei from 'components/pfo/templates/project/yonsei';
 import ProjectIcs from 'components/pfo/templates/project/ics';
+import MainTemplates from 'components/pfo/templates/main'
 
 import './App.css';
 
@@ -18,7 +19,7 @@ function App() {
       <Router>
         <Switch>
 
-            <Route exact path="/" component={IntroTemplates} />
+            <Route exact path="/" component={MainTemplates} />
             <Route path="/introduce" component={IntroTemplates} />
 
             <Route exact path="/project" component={ProjectMiddle} />
