@@ -3,7 +3,7 @@ import PageNav from "../../atoms/PageNav";
 
 const ProjectMiddle = () => {
     return (<>
-        <main className="main" style={{clear : "both"}}>
+        <main className="project_main" style={{clear : "both"}}>
 
             <PageNav text="프로젝트" href="/project"/>
 

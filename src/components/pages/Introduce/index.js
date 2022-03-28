@@ -3,7 +3,7 @@ import PageNav from "../../atoms/PageNav";
 
 const IntroMiddle = () => {
     return (<>
-        <main className="main" style={{clear : "both"}}>
+        <main className="intro_main" style={{clear : "both"}}>
             <PageNav text="소개" href="/introduce"/>
 
             <section className="title_section">

@@ -64,7 +64,7 @@ const PageNice = () => {
                     <p>표현식 Script : 의견생성을 위한 유형별 표현식. 가중치와 문장패턴에 따라 다양한 문장 생성.</p>
                     <img className="scr_2" src="/images/project/nice/exp_script.png" alt="의견 1"/>
                     <br/>
-                    <p>ElasticSearch에 색인해 놓은 데이터를 조회해 Groovy Script의 변수에 해당하는 값 <span className="ex">ex) 관계사_개수</span> 를 찾아내고,</p>
+                    <p>library 내부에서 데이터를 조회해 Groovy Script의 변수에 해당하는 값 <span className="ex">ex) 관계사_개수</span> 를 찾아내고,</p>
                     <p>그 값에 해당하는 표현식을 표현식 Script 에서 찾아 문장을 만들어 return 함.</p>
 
 

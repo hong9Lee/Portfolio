@@ -7,13 +7,12 @@ const Career = () => {
     const [isToggled, setIsToggled] = useState(false);
 
     const setToggleBox = (e) => {
-        console.log("@@@@@@!!")
         e.preventDefault();
         setIsToggled(!isToggled);
     }
 
     return (<>
-        <main className="main" style={{clear : "both"}}>
+        <main className="career_main" style={{clear : "both"}}>
             <PageNav text="커리어" href="/career"/>
 
             <section className="career_title_section">
