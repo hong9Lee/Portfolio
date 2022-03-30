@@ -9,6 +9,7 @@ import CareerTemplates from 'components/pfo/templates/career';
 import ProjectNice from 'components/pfo/templates/project/nice';
 import ProjectYonsei from 'components/pfo/templates/project/yonsei';
 import ProjectIcs from 'components/pfo/templates/project/ics';
+import ProjectPpis from 'components/pfo/templates/project/ppis';
 import MainTemplates from 'components/pfo/templates/main'
 
 import './App.css';
@@ -23,9 +24,11 @@ function App() {
             <Route path="/introduce" component={IntroTemplates} />
 
             <Route exact path="/project" component={ProjectMiddle} />
+
             <Route path="/project/nice" component={ProjectNice} />
             <Route path="/project/yonsei" component={ProjectYonsei} />
             <Route path="/project/ics" component={ProjectIcs} />
+            <Route path="/project/ppis" component={ProjectPpis} />
 
 
             <Route path="/career" component={CareerTemplates} />

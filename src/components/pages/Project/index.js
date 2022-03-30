@@ -67,6 +67,10 @@ const ProjectMiddle = () => {
                                 </ul>
                             </div>
 
+                            <div className="links">
+                                <a href="/project/ppis">더보기</a>
+                            </div>
+
                         </li>
 
                         {/*  3. 나이스평가정보 기업평가시스템 평가의견고도화 및 조정의견자동화 시스템 구축 */}
