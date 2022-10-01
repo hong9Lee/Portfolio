@@ -26,6 +26,31 @@ const ProjectMiddle = () => {
                     <ul className="project-box">
                         <li>
                             <div className="intro">
+                                <div className="intro_img ics">
+                                    <img src="/images/project/ics.png" alt="인천 서구청 로고"/>
+                                </div>
+                                <div className="intro_contents">
+                                    <p className="company_nm">인천 서구청</p>
+                                    <p>인천 서구청 KT 기가지니 챗봇 연동 사업</p>
+                                    <div>2022.03 ~ 2022.07</div>
+                                </div>
+                            </div>
+
+                            <div className="contents">
+                                <ul>
+                                    <li>NodeJS, GigaGenie SDK Module, Ajax, ElasticSearch</li>
+                                    <li>KT 기가지니를 통해 상용 서비스 되는 챗봇 Application 구축 및 유지보수</li>
+                                </ul>
+                            </div>
+
+                            <div className="links">
+                                <a href="/project/ics_kt">더보기</a>
+                            </div>
+
+                        </li>
+
+                        <li>
+                            <div className="intro">
                                 <div className="intro_img jcop">
                                     <img src="/images/project/jcop.png" alt="제주화장품 로고"/>
                                 </div>
@@ -38,8 +63,8 @@ const ProjectMiddle = () => {
 
                             <div className="contents">
                                 <ul>
-                                    <li>NodeJS, Nifi, ElasticSearch, MySQL</li>
-                                    <li>제주화장품 홈페이지 검색 시스템 개발 및 배포 (개발중)</li>
+                                    <li>Java, Spring, Nifi, ElasticSearch, MySQL</li>
+                                    <li>제주화장품 홈페이지 검색 시스템 개발 및 배포</li>
                                 </ul>
                             </div>
 
@@ -62,8 +87,8 @@ const ProjectMiddle = () => {
 
                             <div className="contents">
                                 <ul>
-                                    <li>NodeJS, Nifi, ElasticSearch, Oracle</li>
-                                    <li>발주 지원 검색 시스템 개발 및 배포 (파견근무)</li>
+                                    <li>Java, Spring, Nifi, ElasticSearch, Oracle</li>
+                                    <li>발주 지원 검색 시스템 개발 및 배포</li>
                                 </ul>
                             </div>
 
@@ -90,7 +115,7 @@ const ProjectMiddle = () => {
 
                             <div className="contents">
                                 <ul>
-                                    <li>Java, Spring, JUnit, JMeter, Maven, Oracle, ElasticSearch, Logstash</li>
+                                    <li>Java, Spring, JUnit, JMeter, NodeJS, Oracle, ElasticSearch, Logstash</li>
                                     <li>기업평가 자동화 지원 library 개발</li>
                                 </ul>
                             </div>
@@ -116,8 +141,8 @@ const ProjectMiddle = () => {
 
                             <div className="contents">
                                 <ul>
-                                    <li>HTML/CSS, React, NodeJS, Express, ElasticSearch, Logstash</li>
-                                    <li>React 기반의 민원 상담 챗봇 개발 및 배포 (파견근무)</li>
+                                    <li>NodeJS, Express, React, ElasticSearch, Logstash</li>
+                                    <li>React 기반의 민원 상담 챗봇 개발 및 배포</li>
                                 </ul>
                             </div>
 
@@ -144,7 +169,7 @@ const ProjectMiddle = () => {
 
                             <div className="contents">
                                 <ul>
-                                    <li>HTML/CSS, React, NodeJS, Express, ElasticSearch</li>
+                                    <li>NodeJS, Express, React, ElasticSearch</li>
                                     <li>React 기반의 상담 챗봇 개발 및 배포</li>
                                 </ul>
                             </div>

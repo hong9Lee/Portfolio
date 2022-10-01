@@ -20,7 +20,7 @@ main section > div > ul {
 
 .title_section h2 {
   font-size: 28px;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .company_nm {
@@ -79,7 +79,8 @@ main section > div > ul {
 }
 
 .detail_section .project-box {
-  margin-left: 100px;
+  //margin-left: 100px;
+  font-size: 13px;
 }
 
 .detail_section .project-box .contents {
@@ -143,6 +144,23 @@ main section > div > ul {
   border-bottom: 1px solid #ebebeb;
 }
 
+.common_outline {
+  //margin-left: 20px;
+}
+
+.common_u_line {
+  margin-left: 20px;
+}
+
+.common_contents p {
+  font-size: 15px;
+}
+
+.common_contents h2 {
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
 
 .outline p {
   font-size: 16px;
@@ -239,6 +257,13 @@ main section > div > ul {
   margin-left: 100px;
 }
 
+.kt_image {
+  height: 500px;
+  border: 1px solid hsla(0, 0%, 59.2%, .24);
+}
+
+
+
 .left_project_img {
   height: 650px;
 
@@ -260,8 +285,19 @@ main section > div > ul {
   font-size: 17px;
 }
 
-
+/** URL 링크 */
 .yonsei_u_line .yonsei_contents a {
+  color: #32488a;
+  font-weight: 700;
+}
+
+.common_contents .inner_url {
+  color: #32488a;
+  font-weight: 700;
+}
+
+
+.common_contents .links a {
   color: #32488a;
   font-weight: 700;
 }

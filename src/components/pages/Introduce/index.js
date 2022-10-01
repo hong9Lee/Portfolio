@@ -64,7 +64,7 @@ const IntroMiddle = () => {
                                             <h2>
                                                 React
                                             </h2>
-                                            <p>Redux, Saga, Hook 활용</p>
+                                            <p>Hook을 활용한 간단한 컴포넌트 개발</p>
                                         </div>
                                     </li>
 

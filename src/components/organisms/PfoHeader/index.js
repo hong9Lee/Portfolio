@@ -40,10 +40,6 @@ const PpoHeader = () => {
                         </li>
 
                         <li>
-                            <a href="/career">커리어</a>
-                        </li>
-
-                        <li>
                             <a href="https://github.com/hong9Lee" target="_blank" rel="noreferrer">깃허브</a>
                         </li>
                     </ul>
