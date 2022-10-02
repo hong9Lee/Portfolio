@@ -1,3 +1,17 @@
+.main_container { // FIX
+  //min-height: calc(100vh - 311px);
+  position: relative;
+  //left: 0;
+  //top: 80px;
+  //width: 1400px;
+  width: 100%;
+  margin: 20px 0 0 65px; // FIX 60px -> 235px
+  //padding-top: 81px;
+
+  //border: solid blue;
+}
+
+
 .main_container section {
   width: 80%;
   margin-left: 300px;

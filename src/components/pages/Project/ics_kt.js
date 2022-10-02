@@ -80,7 +80,7 @@ const PageIcs = () => {
 
 
 
-                        <h2>5) URL</h2>
+                        <h2># URL</h2>
 
                         <div className="links">
                             <p><a href="https://chatbot.seo.incheon.kr/kt"  target="_blank" rel="noreferrer">https://chatbot.seo.incheon.kr/kt </a>&nbsp;&nbsp;(실제 동작은 KT 기가지니에서 가능) </p>

@@ -223,11 +223,15 @@ main section > div > ul {
 .scr_1 {
   width: 600px;
   height: 150px;
+  margin-top: 7px;
+  border: 1px solid hsla(0, 0%, 59.2%, .24);
 }
 
 .scr_2 {
   width: 600px;
   height: 150px;
+  margin-top: 7px;
+  border: 1px solid hsla(0, 0%, 59.2%, .24);
 }
 
 .outline h2 {
@@ -262,6 +266,20 @@ main section > div > ul {
   border: 1px solid hsla(0, 0%, 59.2%, .24);
 }
 
+.nice_image {
+  height: 430px;
+  border: 1px solid hsla(0, 0%, 59.2%, .24);
+}
+
+.nice_node_image {
+  height: 300px;
+  border: 1px solid hsla(0, 0%, 59.2%, .24);
+}
+
+//.nice_img_div {
+//  height: 500px;
+//  border: 1px solid hsla(0, 0%, 59.2%, .24);
+//}
 
 
 .left_project_img {
@@ -304,6 +322,15 @@ main section > div > ul {
 
 .color_Link {
   color: #32488a;
+}
+
+.detail_section {
+  //font-size: 14px;
+}
+
+.git_url a {
+  font-weight: 700;
+  color : #32488a;
 }
 
 @media (max-width: 1525px) {

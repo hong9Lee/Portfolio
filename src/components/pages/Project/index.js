@@ -17,8 +17,6 @@ const ProjectMiddle = () => {
                 </div>
             </section>
 
-            {/* TODO: 회사 기술 소개 추가 */}
-
             <section className="detail_section">
                 <div>
 
@@ -31,7 +29,7 @@ const ProjectMiddle = () => {
                                 </div>
                                 <div className="intro_contents">
                                     <p className="company_nm">인천 서구청</p>
-                                    <p>인천 서구청 KT 기가지니 챗봇 연동 사업</p>
+                                    <p>KT 기가지니 챗봇 시스템 구축</p>
                                     <div>2022.03 ~ 2022.07</div>
                                 </div>
                             </div>
@@ -39,7 +37,7 @@ const ProjectMiddle = () => {
                             <div className="contents">
                                 <ul>
                                     <li>NodeJS, GigaGenie SDK Module, Ajax, ElasticSearch</li>
-                                    <li>KT 기가지니를 통해 상용 서비스 되는 챗봇 Application 구축 및 유지보수</li>
+                                    <li>KT 기가지니를 통해 상용 서비스 되는 챗봇 구축 및 유지보수</li>
                                 </ul>
                             </div>
 
@@ -66,6 +64,9 @@ const ProjectMiddle = () => {
                                     <li>Java, Spring, Nifi, ElasticSearch, MySQL</li>
                                     <li>제주화장품 홈페이지 검색 시스템 개발 및 배포</li>
                                 </ul>
+                            </div>
+                            <div className="links">
+                                <a href="/project/jeju">더보기</a>
                             </div>
 
                         </li>
@@ -199,78 +200,106 @@ const ProjectMiddle = () => {
                 </div>
             </section>
 
-            <section className="pe_section">
-                <div>
-                    <ul>
+            <section className="detail_section">
+                <div className="pp_div">
+
+                    <ul className="project-box">
                         <li>
-                            <div className="pe_name">
-                               {/*
-                               <img src="/images/project/jcop.png" alt="제주화장품 로고"/>
-                               */}
-                                <p className="company_nm">{`
-                            honggyu's
-                        `} Portfolio 홈페이지</p>
-                                <div>2022.01 ~ 2022.02</div>
+                            <div className="intro">
+
+                                <div className="intro_contents">
+                                    <p>리팩토링 기술 학습</p>
+                                    <div>2022.07 - </div>
+                                </div>
                             </div>
 
                             <div className="contents">
                                 <ul>
-                                    <li>HTML/CSS, React, AWS</li>
-                                    <li>프트폴리오 페이지 개발</li>
-                                </ul>
-
-                            </div>
-                            <br/>
-                            <div className="links">
-                                <p><a href="https://github.com/hong9Lee/portfolio"  target="_blank" rel="noreferrer" className="color_Link">https://github.com/hong9Lee/portfolio</a></p>
-                            </div>
-
-                        </li>
-
-
-                        <li>
-                            <div className="pe_name">
-                                {/*
-                                <img src="/images/project/jcop.png" alt="제주화장품 로고"/>
-                                */}
-                                <p className="company_nm">Community 게시판</p>
-                                <div>2022.02 ~ 03</div>
-                            </div>
-
-                            <div className="contents">
-                                <ul>
-                                    <li>Spring Data JPA를 활용하여 게시글, 댓글, 좋아요 백엔드 기능 구현</li>
-                                    <li>JAVA, SpringBoot, Spring Data JPA, MySQL, h2</li>
+                                    <li>인터넷 강의를 통해 리팩토링 기술 학습</li>
+                                    <div className="git_url">
+                                    <a href="https://github.com/hong9Lee/Study-refactoring" target="_blank" rel="noreferrer">https://github.com/hong9Lee/Study-refactoring</a>
+                                    </div>
                                 </ul>
                             </div>
-                            <br/>
-                            <div className="links">
-                                <p><a href="https://github.com/hong9Lee/community" target="_blank" rel="noreferrer" className="color_Link">https://github.com/hong9Lee/community</a></p>
-                            </div>
-
                         </li>
-
-                        <li>
-                            <div className="pe_name">
-                                {/*
-                                <img src="/images/project/jcop.png" alt="제주화장품 로고"/>
-                                */}
-                                <p className="company_nm">알고리즘 스터디</p>
-                            </div>
-
-                            <div className="contents">
-                                <ul>
-                                    <li>소스코드의 시간, 공간 복잡도를 개선하기 위해 <br/>JAVA를 활용한 알고리즘 문제풀이 및 스터디</li>
-                                </ul>
-                            </div>
-
-                        </li>
-
-
                     </ul>
+
+
+                    <ul className="project-box">
+                        <li>
+                            <div className="intro">
+
+                                <div className="intro_contents">
+                                    <p>ExcelHandler 토이 프로젝트</p>
+                                    <div>2022.05 - 2022.06</div>
+                                </div>
+                            </div>
+
+                            <div className="contents">
+                                <ul>
+                                    <li>다양한 데이터 접근기술을 활용하여 Excel Upload & Download Web Application 개발</li>
+                                    <div className="git_url">
+                                        <a href="https://github.com/hong9Lee/ExcelHandler" target="_blank" rel="noreferrer">https://github.com/hong9Lee/ExcelHandler</a>
+                                    </div>
+
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+
+
+                    <ul className="project-box">
+                        <li>
+                            <div className="intro">
+
+                                <div className="intro_contents">
+                                    <p>Music-chart 토이 프로젝트</p>
+                                    <div>2022.05 - 2022.05</div>
+                                </div>
+                            </div>
+
+                            <div className="contents">
+                                <ul>
+                                    <li>음원순위를 크롤링하여 제공하는 API 개발</li>
+                                    <div className="git_url">
+                                        <a href="https://github.com/hong9Lee/Music-chart" target="_blank" rel="noreferrer">https://github.com/hong9Lee/Music-chart</a>
+                                    </div>
+
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+
+
+
+                    <ul className="project-box">
+                        <li>
+                            <div className="intro">
+
+                                <div className="intro_contents">
+                                    <p>Community 토이 프로젝트</p>
+                                    <div>2022.03 - 2022.04</div>
+                                </div>
+                            </div>
+
+                            <div className="contents">
+                                <ul>
+                                    <li>JPA를 활용하여 게시판 프로젝트 백엔드 개발</li>
+                                    <div className="git_url">
+                                        <a href="https://github.com/hong9Lee/Community" target="_blank" rel="noreferrer">https://github.com/hong9Lee/Community</a>
+                                    </div>
+
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+
+
+
+
+
                 </div>
             </section>
-
 
         </main>
     </>);

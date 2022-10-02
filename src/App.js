@@ -11,6 +11,7 @@ import ProjectYonsei from 'components/pfo/templates/project/yonsei';
 import ProjectIcs from 'components/pfo/templates/project/ics';
 import ProjectIcsKT from 'components/pfo/templates/project/ics_kt';
 import ProjectPpis from 'components/pfo/templates/project/ppis';
+import ProjectJeju from 'components/pfo/templates/project/jeju';
 import MainTemplates from 'components/pfo/templates/main'
 
 import './App.css';
@@ -26,6 +27,7 @@ function App() {
 
             <Route exact path="/project" component={ProjectMiddle} />
 
+            <Route path="/project/jeju" component={ProjectJeju} />
             <Route path="/project/nice" component={ProjectNice} />
             <Route path="/project/yonsei" component={ProjectYonsei} />
             <Route path="/project/ics" component={ProjectIcs} />
